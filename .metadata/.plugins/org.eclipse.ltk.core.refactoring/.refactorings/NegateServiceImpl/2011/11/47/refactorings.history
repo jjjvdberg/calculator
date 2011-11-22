@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;dev.log.handler&apos; to &apos;ParseServiceImpl/src&apos;&#x0D;&#x0A;- Original project: &apos;NegateServiceImpl&apos;&#x0D;&#x0A;- Destination element: &apos;ParseServiceImpl/src&apos;&#x0D;&#x0A;- Original element: &apos;NegateServiceImpl/src/dev.log.handler&apos;" description="Copy package" destination="=ParseServiceImpl/src" element1="/src&lt;dev.log.handler" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1321971686818" version="1.0"/>
+</session>

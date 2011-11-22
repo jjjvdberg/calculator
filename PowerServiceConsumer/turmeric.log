@@ -1,0 +1,30 @@
+2011-11-22 16:00:54,915 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 16:00:55,267 ERROR - Unable to identify persistent service markdown directory due to missing config root information
+2011-11-22 16:00:55,390 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:00:55,409 WARN - Unable to find resource: META-INF/soa/services/config/services.txt
+2011-11-22 16:00:55,484 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:00:55,491 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:00:55,787 WARN - Unable to find resource: META-INF/soa/services/config/PowerService/SecurityPolicy.xml
+2011-11-22 16:00:55,788 WARN - Unable to find resource: META-INF/soa/services/config/PowerService/CachePolicy.xml
+2011-11-22 16:00:56,047 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:01:33,244 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 16:01:33,750 ERROR - Unable to identify persistent service markdown directory due to missing config root information
+2011-11-22 16:01:33,889 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:01:33,904 WARN - Unable to find resource: META-INF/soa/services/config/services.txt
+2011-11-22 16:01:33,988 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:01:33,997 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:01:34,236 WARN - Unable to find resource: META-INF/soa/services/config/PowerService/SecurityPolicy.xml
+2011-11-22 16:01:34,237 WARN - Unable to find resource: META-INF/soa/services/config/PowerService/CachePolicy.xml
+2011-11-22 16:01:34,503 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:01:34,912 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:01:35,086 WARN - Unable to find resource: META-INF/soa/services/config/MultiplyService/SecurityPolicy.xml
+2011-11-22 16:01:35,087 WARN - Unable to find resource: META-INF/soa/services/config/MultiplyService/CachePolicy.xml
+2011-11-22 16:01:35,102 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:01:35,236 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:01:35,352 WARN - Unable to find resource: META-INF/soa/services/config/SumService/SecurityPolicy.xml
+2011-11-22 16:01:35,353 WARN - Unable to find resource: META-INF/soa/services/config/SumService/CachePolicy.xml
+2011-11-22 16:01:35,367 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:01:35,626 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 16:01:35,711 WARN - Unable to find resource: META-INF/soa/services/config/NegateService/SecurityPolicy.xml
+2011-11-22 16:01:35,711 WARN - Unable to find resource: META-INF/soa/services/config/NegateService/CachePolicy.xml
+2011-11-22 16:01:35,768 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml

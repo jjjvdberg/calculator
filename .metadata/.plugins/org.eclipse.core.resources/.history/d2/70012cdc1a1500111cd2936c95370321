@@ -1,0 +1,29 @@
+package calculations.dev.powerservice;
+
+import org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException;
+
+import calculations.dev.PowerRequest;
+import calculations.dev.PowerResponse;
+import calculations.dev.powerservice.gen.SharedPowerServiceConsumer;
+
+public class PowerServiceConsumer extends SharedPowerServiceConsumer {
+
+	public PowerServiceConsumer(String clientName) throws ServiceException {
+		super(clientName);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static int power(int x, int y) throws ServiceException {
+		PowerServiceConsumer consumer = new PowerServiceConsumer("PowerServiceConsumer");
+		PowerRequest request = new PowerRequest();
+		request.setX(x);
+		request.setY(y);
+		PowerResponse response = consumer.power(request);
+		return response.getZ();
+	}
+	
+	public static void main(String[] args) throws ServiceException {
+		System.out.println(power(4,-5));
+	}
+
+}

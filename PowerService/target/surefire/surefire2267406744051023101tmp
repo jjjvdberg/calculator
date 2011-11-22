@@ -1,0 +1,5 @@
+#surefire
+#Tue Nov 22 15:53:09 CET 2011
+user.dir=C\:\\eclipse_workspaces\\testsetup\\PowerService
+localRepository=C\:\\Users\\Joel\\.m2\\repository
+basedir=C\:\\eclipse_workspaces\\testsetup\\PowerService

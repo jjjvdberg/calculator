@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service enable-namespace-folding="true" name="PowerService" xmlns="http://www.ebayopensource.org/turmeric/common/config">
+    <package-map>
+        <package xml-namespace="http://dev.calculations" name="calculations.dev.powerservice"/>
+        <package xml-namespace="http://dev.calculations" name="org.ebayopensource.turmeric.common.v1.types"/>
+        <package xml-namespace="http://dev.calculations" name="calculations.dev"/>
+    </package-map>
+    <operation-list>
+        <operation name="power">
+            <request-message>
+                <java-type-name>calculations.dev.PowerRequest</java-type-name>
+                <xml-type-name>PowerRequest</xml-type-name>
+                <xml-element-name>{http://dev.calculations}powerRequest</xml-element-name>
+                <has-attachment>false</has-attachment>
+            </request-message>
+            <response-message>
+                <java-type-name>calculations.dev.PowerResponse</java-type-name>
+                <xml-type-name>PowerResponse</xml-type-name>
+                <xml-element-name>{http://dev.calculations}powerResponse</xml-element-name>
+                <has-attachment>false</has-attachment>
+            </response-message>
+            <error-message>
+                <java-type-name>org.ebayopensource.turmeric.common.v1.types.ErrorMessage</java-type-name>
+                <xml-type-name>ErrorMessage</xml-type-name>
+                <xml-element-name>{http://www.ebayopensource.org/turmeric/common/v1/types}errorMessage</xml-element-name>
+            </error-message>
+        </operation>
+    </operation-list>
+    <java-type-list>
+        <java-type-name>calculations.dev.PowerRequest</java-type-name>
+        <java-type-name>calculations.dev.PowerResponse</java-type-name>
+        <java-type-name>org.ebayopensource.turmeric.common.v1.types.AckValue</java-type-name>
+        <java-type-name>org.ebayopensource.turmeric.common.v1.types.BaseRequest</java-type-name>
+        <java-type-name>org.ebayopensource.turmeric.common.v1.types.BaseResponse</java-type-name>
+        <java-type-name>org.ebayopensource.turmeric.common.v1.types.CommonErrorData</java-type-name>
+        <java-type-name>org.ebayopensource.turmeric.common.v1.types.ErrorCategory</java-type-name>
+        <java-type-name>org.ebayopensource.turmeric.common.v1.types.ErrorData</java-type-name>
+        <java-type-name>org.ebayopensource.turmeric.common.v1.types.ErrorMessage</java-type-name>
+        <java-type-name>org.ebayopensource.turmeric.common.v1.types.ErrorParameter</java-type-name>
+        <java-type-name>org.ebayopensource.turmeric.common.v1.types.ErrorSeverity</java-type-name>
+        <java-type-name>org.ebayopensource.turmeric.common.v1.types.ExtensionType</java-type-name>
+    </java-type-list>
+</service>

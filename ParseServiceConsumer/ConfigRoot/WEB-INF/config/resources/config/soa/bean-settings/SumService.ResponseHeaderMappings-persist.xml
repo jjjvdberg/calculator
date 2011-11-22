@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebay:config-category-file
+	xmlns:ebay="http://www.ebay.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+  <config-category id="org.ebayopensource.turmeric.server.SumService.ResponseHeaderMappings" alias="null" group="org.ebayopensource.turmeric.server" site-ops-command="true" category-desc="SOA Service ResponseHeaderMappings Config for SumService" persist-updates="true" timestamp="Tue Nov 22 15:34:35 CET 2011" Validator="com.ebay.kernel.bean.configuration.adapter.ConfigManagementValidatorAdapter" >
+    <attribute name="EXTERNAL_MUTABLE" value="true" type="java.lang.Boolean" />
+  </config-category>
+</ebay:config-category-file>

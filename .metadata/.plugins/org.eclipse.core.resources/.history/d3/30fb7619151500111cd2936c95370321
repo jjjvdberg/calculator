@@ -1,0 +1,7 @@
+package calculations.dev.parseservice;
+
+import calculations.dev.parseservice.gen.SharedParseServiceConsumer;
+
+public class ParseServiceConsumer extends SharedParseServiceConsumer {
+
+}

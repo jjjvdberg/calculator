@@ -1,0 +1,9 @@
+2011-11-22 15:32:47,800 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:32:48,163 ERROR - Unable to identify persistent service markdown directory due to missing config root information
+2011-11-22 15:32:48,290 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:32:48,303 WARN - Unable to find resource: META-INF/soa/services/config/services.txt
+2011-11-22 15:32:48,371 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:32:48,376 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:32:48,702 WARN - Unable to find resource: META-INF/soa/services/config/SumService/SecurityPolicy.xml
+2011-11-22 15:32:48,703 WARN - Unable to find resource: META-INF/soa/services/config/SumService/CachePolicy.xml
+2011-11-22 15:32:48,970 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml

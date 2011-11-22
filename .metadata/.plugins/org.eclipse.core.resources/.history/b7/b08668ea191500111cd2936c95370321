@@ -1,0 +1,16 @@
+
+package calculations.dev.powerservice;
+
+import calculations.dev.PowerRequest;
+import calculations.dev.PowerResponse;
+
+public class PowerServiceImpl
+    implements PowerService
+{
+
+
+    public PowerResponse power(PowerRequest param0) {
+        return null;
+    }
+
+}

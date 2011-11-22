@@ -1,0 +1,16 @@
+
+package calculations.dev.negateservice;
+
+import calculations.dev.NegateRequest;
+import calculations.dev.NegateResponse;
+
+public class NegateServiceImpl
+    implements NegateService
+{
+
+
+    public NegateResponse negate(NegateRequest param0) {
+        return null;
+    }
+
+}

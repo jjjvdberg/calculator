@@ -1,0 +1,201 @@
+2011-11-22 15:43:31,791 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:43:32,035 ERROR - Service ClientServiceId([MultiplyService,null,null,null],MultiplyServiceConsumer,production) could not be loaded due to exception: org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException: Unable to instantiate org.ebayopensource.turmeric.runtime.common.pipeline.Handler with class dev.log.handler.RequestLogHeaderHandler. Class not found
+org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException: Unable to instantiate org.ebayopensource.turmeric.runtime.common.pipeline.Handler with class dev.log.handler.RequestLogHeaderHandler. Class not found
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:61)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:36)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.createInstance(ReflectionUtils.java:86)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.createInstance(ReflectionUtils.java:79)
+	at org.ebayopensource.turmeric.runtime.common.impl.pipeline.PipelineImpl.init(PipelineImpl.java:69)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.createPipeline(BaseServiceDescFactory.java:605)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.createServiceDesc(ClientServiceDescFactory.java:256)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.createServiceDesc(ClientServiceDescFactory.java:83)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.getServiceDesc(BaseServiceDescFactory.java:363)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.getServiceDesc(BaseServiceDescFactory.java:182)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.getServiceDesc(ClientServiceDescFactory.java:194)
+	at org.ebayopensource.turmeric.runtime.sif.service.ServiceFactory.create(ServiceFactory.java:265)
+	at org.ebayopensource.turmeric.runtime.sif.service.ServiceFactory.create(ServiceFactory.java:227)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.getService(SharedMultiplyServiceConsumer.java:135)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.getProxy(SharedMultiplyServiceConsumer.java:122)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.multiply(SharedMultiplyServiceConsumer.java:179)
+	at calculations.dev.multiplyservice.MultiplyServiceConsumer.multiply(MultiplyServiceConsumer.java:21)
+	at calculations.dev.multiplyservice.MultiplyServiceConsumer.main(MultiplyServiceConsumer.java:26)
+Caused by: java.lang.ClassNotFoundException: dev.log.handler.RequestLogHeaderHandler
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:52)
+	... 17 more
+2011-11-22 15:43:49,762 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:43:50,042 ERROR - Service ClientServiceId([MultiplyService,null,null,null],MultiplyServiceConsumer,production) could not be loaded due to exception: org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException: Unable to instantiate org.ebayopensource.turmeric.runtime.common.pipeline.Handler with class dev.log.handler.RequestLogHeaderHandler. Class not found
+org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException: Unable to instantiate org.ebayopensource.turmeric.runtime.common.pipeline.Handler with class dev.log.handler.RequestLogHeaderHandler. Class not found
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:61)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:36)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.createInstance(ReflectionUtils.java:86)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.createInstance(ReflectionUtils.java:79)
+	at org.ebayopensource.turmeric.runtime.common.impl.pipeline.PipelineImpl.init(PipelineImpl.java:69)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.createPipeline(BaseServiceDescFactory.java:605)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.createServiceDesc(ClientServiceDescFactory.java:256)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.createServiceDesc(ClientServiceDescFactory.java:83)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.getServiceDesc(BaseServiceDescFactory.java:363)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.getServiceDesc(BaseServiceDescFactory.java:182)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.getServiceDesc(ClientServiceDescFactory.java:194)
+	at org.ebayopensource.turmeric.runtime.sif.service.ServiceFactory.create(ServiceFactory.java:265)
+	at org.ebayopensource.turmeric.runtime.sif.service.ServiceFactory.create(ServiceFactory.java:227)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.getService(SharedMultiplyServiceConsumer.java:135)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.getProxy(SharedMultiplyServiceConsumer.java:122)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.multiply(SharedMultiplyServiceConsumer.java:179)
+	at calculations.dev.multiplyservice.MultiplyServiceConsumer.multiply(MultiplyServiceConsumer.java:21)
+	at calculations.dev.multiplyservice.MultiplyServiceConsumer.main(MultiplyServiceConsumer.java:26)
+Caused by: java.lang.ClassNotFoundException: dev.log.handler.RequestLogHeaderHandler
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:52)
+	... 17 more
+2011-11-22 15:45:45,149 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:45:45,398 ERROR - Service ClientServiceId([MultiplyService,null,null,null],MultiplyServiceConsumer,production) could not be loaded due to exception: org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException: Unable to instantiate org.ebayopensource.turmeric.runtime.common.pipeline.Handler with class dev.log.handler.RequestLogHeaderHandler. Class not found
+org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException: Unable to instantiate org.ebayopensource.turmeric.runtime.common.pipeline.Handler with class dev.log.handler.RequestLogHeaderHandler. Class not found
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:61)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:36)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.createInstance(ReflectionUtils.java:86)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.createInstance(ReflectionUtils.java:79)
+	at org.ebayopensource.turmeric.runtime.common.impl.pipeline.PipelineImpl.init(PipelineImpl.java:69)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.createPipeline(BaseServiceDescFactory.java:605)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.createServiceDesc(ClientServiceDescFactory.java:256)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.createServiceDesc(ClientServiceDescFactory.java:83)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.getServiceDesc(BaseServiceDescFactory.java:363)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.getServiceDesc(BaseServiceDescFactory.java:182)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.getServiceDesc(ClientServiceDescFactory.java:194)
+	at org.ebayopensource.turmeric.runtime.sif.service.ServiceFactory.create(ServiceFactory.java:265)
+	at org.ebayopensource.turmeric.runtime.sif.service.ServiceFactory.create(ServiceFactory.java:227)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.getService(SharedMultiplyServiceConsumer.java:135)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.getProxy(SharedMultiplyServiceConsumer.java:122)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.multiply(SharedMultiplyServiceConsumer.java:179)
+	at calculations.dev.multiplyservice.MultiplyServiceConsumer.multiply(MultiplyServiceConsumer.java:21)
+	at calculations.dev.multiplyservice.MultiplyServiceConsumer.main(MultiplyServiceConsumer.java:26)
+Caused by: java.lang.ClassNotFoundException: dev.log.handler.RequestLogHeaderHandler
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:52)
+	... 17 more
+2011-11-22 15:46:26,391 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:46:26,615 ERROR - Service ClientServiceId([MultiplyService,null,null,null],MultiplyServiceConsumer,production) could not be loaded due to exception: org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException: Unable to instantiate org.ebayopensource.turmeric.runtime.common.pipeline.Handler with class dev.log.handler.RequestLogHeaderHandler. Class not found
+org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException: Unable to instantiate org.ebayopensource.turmeric.runtime.common.pipeline.Handler with class dev.log.handler.RequestLogHeaderHandler. Class not found
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:61)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:36)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.createInstance(ReflectionUtils.java:86)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.createInstance(ReflectionUtils.java:79)
+	at org.ebayopensource.turmeric.runtime.common.impl.pipeline.PipelineImpl.init(PipelineImpl.java:69)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.createPipeline(BaseServiceDescFactory.java:605)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.createServiceDesc(ClientServiceDescFactory.java:256)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.createServiceDesc(ClientServiceDescFactory.java:83)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.getServiceDesc(BaseServiceDescFactory.java:363)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.service.BaseServiceDescFactory.getServiceDesc(BaseServiceDescFactory.java:182)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.ClientServiceDescFactory.getServiceDesc(ClientServiceDescFactory.java:194)
+	at org.ebayopensource.turmeric.runtime.sif.service.ServiceFactory.create(ServiceFactory.java:265)
+	at org.ebayopensource.turmeric.runtime.sif.service.ServiceFactory.create(ServiceFactory.java:227)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.getService(SharedMultiplyServiceConsumer.java:135)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.getProxy(SharedMultiplyServiceConsumer.java:122)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.multiply(SharedMultiplyServiceConsumer.java:179)
+	at calculations.dev.multiplyservice.MultiplyServiceConsumer.multiply(MultiplyServiceConsumer.java:21)
+	at calculations.dev.multiplyservice.MultiplyServiceConsumer.main(MultiplyServiceConsumer.java:26)
+Caused by: java.lang.ClassNotFoundException: dev.log.handler.RequestLogHeaderHandler
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.ebayopensource.turmeric.runtime.common.impl.utils.ReflectionUtils.loadClass(ReflectionUtils.java:52)
+	... 17 more
+2011-11-22 15:49:13,206 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:49:13,489 ERROR - Unable to identify persistent service markdown directory due to missing config root information
+2011-11-22 15:49:13,594 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:49:13,609 WARN - Unable to find resource: META-INF/soa/services/config/services.txt
+2011-11-22 15:49:14,610 ERROR - {133cbc08-cc20-a0a6-58b0-15eeffffffff} org.ebayopensource.turmeric.runtime.common.exceptions.HTTPTransportException: Transport HTTP error for target address: http://www.ebayopensource.org/turmeric/MultiplyService: client status=Unknown, HTTP status code=404
+org.ebayopensource.turmeric.runtime.common.exceptions.HTTPTransportException: Transport HTTP error for target address: http://www.ebayopensource.org/turmeric/MultiplyService: client status=Unknown, HTTP status code=404
+	at org.ebayopensource.turmeric.runtime.sif.impl.transport.http.HTTPSyncAsyncClientTransport.doCommonResponseProcessing(HTTPSyncAsyncClientTransport.java:681)
+	at org.ebayopensource.turmeric.runtime.sif.impl.transport.http.HTTPSyncAsyncClientTransport.sendMessageGetResponse(HTTPSyncAsyncClientTransport.java:586)
+	at org.ebayopensource.turmeric.runtime.sif.impl.transport.http.HTTPSyncAsyncClientTransport.invoke(HTTPSyncAsyncClientTransport.java:249)
+	at org.ebayopensource.turmeric.runtime.sif.impl.pipeline.SimpleClientRequestDispatcher.invoke(SimpleClientRequestDispatcher.java:88)
+	at org.ebayopensource.turmeric.runtime.sif.impl.pipeline.SimpleClientRequestDispatcher.invokeTransport(SimpleClientRequestDispatcher.java:41)
+	at org.ebayopensource.turmeric.runtime.common.impl.pipeline.SimpleTransportDispatcher.dispatchInternal(SimpleTransportDispatcher.java:62)
+	at org.ebayopensource.turmeric.runtime.common.impl.pipeline.SimpleTransportDispatcher.dispatchSynchronously(SimpleTransportDispatcher.java:35)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.pipeline.ClientMessageProcessor.dispatchInternal(ClientMessageProcessor.java:76)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.pipeline.BaseMessageProcessorImpl.processMessageInternal(BaseMessageProcessorImpl.java:76)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.pipeline.ClientMessageProcessor.processMessage(ClientMessageProcessor.java:58)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.BaseServiceDispatchImpl.invokeInternal(BaseServiceDispatchImpl.java:282)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.BaseServiceDispatchImpl.invokeWithRetry(BaseServiceDispatchImpl.java:204)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.RawDataServiceDispatch.invoke(RawDataServiceDispatch.java:55)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.RawDataServiceDispatch.invoke(RawDataServiceDispatch.java:50)
+	at org.ebayopensource.turmeric.runtime.sif.service.Service.invoke(Service.java:743)
+	at org.ebayopensource.turmeric.runtime.sif.service.Service.invoke(Service.java:548)
+	at calculations.dev.multiplyservice.gen.MultiplyServiceProxy.multiply(MultiplyServiceProxy.java:55)
+	at calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer.multiply(SharedMultiplyServiceConsumer.java:183)
+	at calculations.dev.multiplyservice.MultiplyServiceConsumer.multiply(MultiplyServiceConsumer.java:21)
+	at calculations.dev.multiplyservice.MultiplyServiceConsumer.main(MultiplyServiceConsumer.java:26)
+2011-11-22 15:49:57,812 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:49:58,169 ERROR - Unable to identify persistent service markdown directory due to missing config root information
+2011-11-22 15:49:58,482 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:49:58,496 WARN - Unable to find resource: META-INF/soa/services/config/services.txt
+2011-11-22 15:49:58,571 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:49:58,578 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:49:58,775 WARN - Unable to find resource: META-INF/soa/services/config/MultiplyService/SecurityPolicy.xml
+2011-11-22 15:49:58,776 WARN - Unable to find resource: META-INF/soa/services/config/MultiplyService/CachePolicy.xml
+2011-11-22 15:49:59,022 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:49:59,405 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:49:59,503 WARN - Unable to find resource: META-INF/soa/services/config/SumService/SecurityPolicy.xml
+2011-11-22 15:49:59,504 WARN - Unable to find resource: META-INF/soa/services/config/SumService/CachePolicy.xml
+2011-11-22 15:49:59,521 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:22,669 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:50:22,954 ERROR - Unable to identify persistent service markdown directory due to missing config root information
+2011-11-22 15:50:23,219 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:23,230 WARN - Unable to find resource: META-INF/soa/services/config/services.txt
+2011-11-22 15:50:23,296 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:23,300 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:23,536 WARN - Unable to find resource: META-INF/soa/services/config/MultiplyService/SecurityPolicy.xml
+2011-11-22 15:50:23,537 WARN - Unable to find resource: META-INF/soa/services/config/MultiplyService/CachePolicy.xml
+2011-11-22 15:50:23,735 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:24,045 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:24,196 WARN - Unable to find resource: META-INF/soa/services/config/SumService/SecurityPolicy.xml
+2011-11-22 15:50:24,196 WARN - Unable to find resource: META-INF/soa/services/config/SumService/CachePolicy.xml
+2011-11-22 15:50:24,210 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:36,870 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:50:37,207 ERROR - Unable to identify persistent service markdown directory due to missing config root information
+2011-11-22 15:50:37,512 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:37,527 WARN - Unable to find resource: META-INF/soa/services/config/services.txt
+2011-11-22 15:50:37,603 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:37,608 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:37,734 WARN - Unable to find resource: META-INF/soa/services/config/MultiplyService/SecurityPolicy.xml
+2011-11-22 15:50:37,735 WARN - Unable to find resource: META-INF/soa/services/config/MultiplyService/CachePolicy.xml
+2011-11-22 15:50:37,999 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:38,381 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:38,538 WARN - Unable to find resource: META-INF/soa/services/config/SumService/SecurityPolicy.xml
+2011-11-22 15:50:38,539 WARN - Unable to find resource: META-INF/soa/services/config/SumService/CachePolicy.xml
+2011-11-22 15:50:38,556 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:38,748 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:50:38,841 WARN - Unable to find resource: META-INF/soa/services/config/NegateService/SecurityPolicy.xml
+2011-11-22 15:50:38,842 WARN - Unable to find resource: META-INF/soa/services/config/NegateService/CachePolicy.xml
+2011-11-22 15:50:38,855 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml

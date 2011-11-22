@@ -1,0 +1,7 @@
+package calculations.dev.powerservice;
+
+import calculations.dev.powerservice.gen.SharedPowerServiceConsumer;
+
+public class PowerServiceConsumer extends SharedPowerServiceConsumer {
+
+}

@@ -1,0 +1,51 @@
+2011-11-22 15:06:17,821 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:06:18,143 ERROR - Unable to identify persistent service markdown directory due to missing config root information
+2011-11-22 15:06:19,483 ERROR - {133cb994-0c80-a0a6-58b0-18e1ffffffff} org.ebayopensource.turmeric.runtime.common.exceptions.HTTPTransportException: Transport HTTP error for target address: http://www.ebayopensource.org/turmeric/NegateService: client status=Unknown, HTTP status code=404
+org.ebayopensource.turmeric.runtime.common.exceptions.HTTPTransportException: Transport HTTP error for target address: http://www.ebayopensource.org/turmeric/NegateService: client status=Unknown, HTTP status code=404
+	at org.ebayopensource.turmeric.runtime.sif.impl.transport.http.HTTPSyncAsyncClientTransport.doCommonResponseProcessing(HTTPSyncAsyncClientTransport.java:681)
+	at org.ebayopensource.turmeric.runtime.sif.impl.transport.http.HTTPSyncAsyncClientTransport.sendMessageGetResponse(HTTPSyncAsyncClientTransport.java:586)
+	at org.ebayopensource.turmeric.runtime.sif.impl.transport.http.HTTPSyncAsyncClientTransport.invoke(HTTPSyncAsyncClientTransport.java:249)
+	at org.ebayopensource.turmeric.runtime.sif.impl.pipeline.SimpleClientRequestDispatcher.invoke(SimpleClientRequestDispatcher.java:88)
+	at org.ebayopensource.turmeric.runtime.sif.impl.pipeline.SimpleClientRequestDispatcher.invokeTransport(SimpleClientRequestDispatcher.java:41)
+	at org.ebayopensource.turmeric.runtime.common.impl.pipeline.SimpleTransportDispatcher.dispatchInternal(SimpleTransportDispatcher.java:62)
+	at org.ebayopensource.turmeric.runtime.common.impl.pipeline.SimpleTransportDispatcher.dispatchSynchronously(SimpleTransportDispatcher.java:35)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.pipeline.ClientMessageProcessor.dispatchInternal(ClientMessageProcessor.java:76)
+	at org.ebayopensource.turmeric.runtime.common.impl.internal.pipeline.BaseMessageProcessorImpl.processMessageInternal(BaseMessageProcessorImpl.java:76)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.pipeline.ClientMessageProcessor.processMessage(ClientMessageProcessor.java:58)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.BaseServiceDispatchImpl.invokeInternal(BaseServiceDispatchImpl.java:282)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.BaseServiceDispatchImpl.invokeWithRetry(BaseServiceDispatchImpl.java:204)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.RawDataServiceDispatch.invoke(RawDataServiceDispatch.java:55)
+	at org.ebayopensource.turmeric.runtime.sif.impl.internal.service.RawDataServiceDispatch.invoke(RawDataServiceDispatch.java:50)
+	at org.ebayopensource.turmeric.runtime.sif.service.Service.invoke(Service.java:743)
+	at org.ebayopensource.turmeric.runtime.sif.service.Service.invoke(Service.java:548)
+	at calculations.dev.negateservice.gen.NegateServiceProxy.negate(NegateServiceProxy.java:55)
+	at calculations.dev.negateservice.gen.SharedNegateServiceConsumer.negate(SharedNegateServiceConsumer.java:183)
+	at calculations.dev.negateservice.NegateServiceConsumer.negate(NegateServiceConsumer.java:20)
+	at calculations.dev.negateservice.NegateServiceConsumer.main(NegateServiceConsumer.java:25)
+2011-11-22 15:09:28,312 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:09:28,654 ERROR - Unable to identify persistent service markdown directory due to missing config root information
+2011-11-22 15:09:28,973 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:09:28,993 WARN - Unable to find resource: META-INF/soa/services/config/services.txt
+2011-11-22 15:09:29,069 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:09:29,078 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:09:29,186 WARN - Unable to find resource: META-INF/soa/services/config/NegateService/SecurityPolicy.xml
+2011-11-22 15:09:29,188 WARN - Unable to find resource: META-INF/soa/services/config/NegateService/CachePolicy.xml
+2011-11-22 15:09:29,439 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:12:31,446 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:12:31,801 ERROR - Unable to identify persistent service markdown directory due to missing config root information
+2011-11-22 15:12:32,117 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:12:32,134 WARN - Unable to find resource: META-INF/soa/services/config/services.txt
+2011-11-22 15:12:32,207 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:12:32,217 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:12:32,782 WARN - Unable to find resource: META-INF/soa/services/config/NegateService/SecurityPolicy.xml
+2011-11-22 15:12:32,783 WARN - Unable to find resource: META-INF/soa/services/config/NegateService/CachePolicy.xml
+2011-11-22 15:12:33,062 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:13:01,942 WARN - Unable to find resource: META-INF/soa/client/config/GlobalClientConfig.xml
+2011-11-22 15:13:02,270 ERROR - Unable to identify persistent service markdown directory due to missing config root information
+2011-11-22 15:13:02,591 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:13:02,608 WARN - Unable to find resource: META-INF/soa/services/config/services.txt
+2011-11-22 15:13:02,673 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:13:02,681 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
+2011-11-22 15:13:02,837 WARN - Unable to find resource: META-INF/soa/services/config/NegateService/SecurityPolicy.xml
+2011-11-22 15:13:02,838 WARN - Unable to find resource: META-INF/soa/services/config/NegateService/CachePolicy.xml
+2011-11-22 15:13:03,051 WARN - Unable to find resource: META-INF/soa/services/config/GlobalServiceConfig.xml
