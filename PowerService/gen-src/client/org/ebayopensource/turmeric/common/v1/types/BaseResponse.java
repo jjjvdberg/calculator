@@ -6,10 +6,8 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.datatype.XMLGregorianCalendar;
-import calculations.dev.PowerResponse;
 
 
 /**
@@ -48,9 +46,6 @@ import calculations.dev.PowerResponse;
     "version",
     "timestamp",
     "extension"
-})
-@XmlSeeAlso({
-    PowerResponse.class
 })
 public abstract class BaseResponse {
 

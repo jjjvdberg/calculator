@@ -35,19 +35,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link MultiplyRequest }
-     * 
-     */
-    public MultiplyRequest createMultiplyRequest() {
-        return new MultiplyRequest();
-    }
-
-    /**
      * Create an instance of {@link MultiplyResponse }
      * 
      */
     public MultiplyResponse createMultiplyResponse() {
         return new MultiplyResponse();
+    }
+
+    /**
+     * Create an instance of {@link MultiplyRequest }
+     * 
+     */
+    public MultiplyRequest createMultiplyRequest() {
+        return new MultiplyRequest();
     }
 
     /**

@@ -35,19 +35,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link NegateResponse }
-     * 
-     */
-    public NegateResponse createNegateResponse() {
-        return new NegateResponse();
-    }
-
-    /**
      * Create an instance of {@link NegateRequest }
      * 
      */
     public NegateRequest createNegateRequest() {
         return new NegateRequest();
+    }
+
+    /**
+     * Create an instance of {@link NegateResponse }
+     * 
+     */
+    public NegateResponse createNegateResponse() {
+        return new NegateResponse();
     }
 
     /**

@@ -5,7 +5,9 @@ import org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException;
 
 import calculations.dev.ParseRequest;
 import calculations.dev.ParseResponse;
+import calculations.dev.multiplyservice.MultiplyServiceConsumer;
 import calculations.dev.negateservice.NegateServiceConsumer;
+import calculations.dev.powerservice.PowerServiceConsumer;
 import calculations.dev.sumservice.SumServiceConsumer;
 
 public class ParseServiceImpl
@@ -24,7 +26,7 @@ public class ParseServiceImpl
 			x = Integer.parseInt(splitstring[0]);
 			y = Integer.parseInt(splitstring[1]);
 			response.setOutput(SumServiceConsumer.sum(x,y));
-		} /*else if (calculation.contains("*")) {
+		} else if (calculation.contains("*")) {
 			String[] splitstring = calculation.split("[*]");
 			x = Integer.parseInt(splitstring[0]);
 			y = Integer.parseInt(splitstring[1]);
@@ -34,7 +36,7 @@ public class ParseServiceImpl
 			x = Integer.parseInt(splitstring[0]);
 			y = Integer.parseInt(splitstring[1]);	
 			response.setOutput(PowerServiceConsumer.power(x,y));				
-		} */else if (calculation.contains("-")) {
+		} else if (calculation.contains("-")) {
 			String[] splitstring = calculation.split("[\\-]");
 			x = Integer.parseInt(splitstring[1]);
 			response.setOutput(NegateServiceConsumer.negate(x));
