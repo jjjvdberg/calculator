@@ -22,7 +22,7 @@ public class ParseServiceConsumer extends SharedParseServiceConsumer {
 	}
 	
 	public static void main(String[] args) throws ServiceException {
-		System.out.println(parse("-3^8"));
+		System.out.println(parse("3^2"));
 	}
 
 }

@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.mail.MessageAware"/>
+<fullyQualifiedTypeName name="org.ebayopensource.turmeric.runtime.common.impl.internal.pipeline.MessageContextAccessorImpl"/>
+<fullyQualifiedTypeName name="org.ebayopensource.turmeric.runtime.common.pipeline.MessageContext"/>
+<fullyQualifiedTypeName name="calculations.dev.negateservice.NegateService"/>
+<fullyQualifiedTypeName name="calculations.dev.negateservice.NegateServiceImpl"/>
+<fullyQualifiedTypeName name="calculations.dev.powerservice.gen.SharedPowerServiceConsumer"/>
+<fullyQualifiedTypeName name="dev.log.handler.RequestLogHeaderHandler"/>
+<fullyQualifiedTypeName name="calculations.dev.sumservice.gen.SharedSumServiceConsumer"/>
+<fullyQualifiedTypeName name="calculations.dev.negateservice.gen.SharedNegateServiceConsumer"/>
+<fullyQualifiedTypeName name="calculations.dev.SumRequest"/>
+<fullyQualifiedTypeName name="calculations.dev.NegateRequest"/>
+<fullyQualifiedTypeName name="calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer"/>
+<fullyQualifiedTypeName name="calculations.dev.MultiplyRequest"/>
+</qualifiedTypeNameHistroy>
