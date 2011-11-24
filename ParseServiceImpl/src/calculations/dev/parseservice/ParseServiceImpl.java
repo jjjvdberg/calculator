@@ -23,13 +23,14 @@ public class ParseServiceImpl
     	
     	ParseResponse response = new ParseResponse();
 		
+    	
 		try {
 
 			SharedPowerServiceConsumer powerConsumer = new SharedPowerServiceConsumer("ParseService");
 			SharedMultiplyServiceConsumer multiplyConsumer = new SharedMultiplyServiceConsumer("ParseService");
 			SharedSumServiceConsumer sumConsumer = new SharedSumServiceConsumer("ParseService");
 			SharedNegateServiceConsumer negateConsumer = new SharedNegateServiceConsumer("ParseService");
-
+			
 	    	String calculation = param0.getInput();
 			int x, y;
 			

@@ -15,6 +15,12 @@
 			</invocation-options>
 			<pipeline-config>
 				<request-handlers>
+					<handler presence="Replaceable" name="MessageContextHandler">
+				     <class-name>org.ebayopensource.turmeric.runtime.sif.impl.handlers.MessageContextHandler</class-name>
+						<options>
+					    	<option name="transport-headers">LOG-PROCESS-ID,LOG-INVOKER-ID</option>
+						</options>
+					</handler>
 					<handler name="RequestLogHeaderHandler">
 						<class-name>dev.log.handler.RequestLogHeaderHandler</class-name>
 					</handler>

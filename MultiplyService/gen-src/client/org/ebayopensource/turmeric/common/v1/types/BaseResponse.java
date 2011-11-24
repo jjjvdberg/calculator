@@ -6,8 +6,10 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.datatype.XMLGregorianCalendar;
+import calculations.dev.MultiplyResponse;
 
 
 /**
@@ -46,6 +48,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "version",
     "timestamp",
     "extension"
+})
+@XmlSeeAlso({
+    MultiplyResponse.class
 })
 public abstract class BaseResponse {
 

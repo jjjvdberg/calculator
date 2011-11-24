@@ -35,19 +35,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link SumRequest }
-     * 
-     */
-    public SumRequest createSumRequest() {
-        return new SumRequest();
-    }
-
-    /**
      * Create an instance of {@link SumResponse }
      * 
      */
     public SumResponse createSumResponse() {
         return new SumResponse();
+    }
+
+    /**
+     * Create an instance of {@link SumRequest }
+     * 
+     */
+    public SumRequest createSumRequest() {
+        return new SumRequest();
     }
 
     /**

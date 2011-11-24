@@ -35,19 +35,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link PowerRequest }
-     * 
-     */
-    public PowerRequest createPowerRequest() {
-        return new PowerRequest();
-    }
-
-    /**
      * Create an instance of {@link PowerResponse }
      * 
      */
     public PowerResponse createPowerResponse() {
         return new PowerResponse();
+    }
+
+    /**
+     * Create an instance of {@link PowerRequest }
+     * 
+     */
+    public PowerRequest createPowerRequest() {
+        return new PowerRequest();
     }
 
     /**

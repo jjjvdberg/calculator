@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-config-list
+	xmlns="http://www.ebayopensource.org/turmeric/common/config">
+	<client-config>
+		<service-interface-class-name>calculations.dev.negateservice.NegateService
+		</service-interface-class-name>
+		<service-location>http://www.ebayopensource.org/turmeric/NegateService
+		</service-location>
+		<client-instance-config>
+			<invocation-options>
+				<preferred-transport name="LOCAL" />
+				<request-data-binding>XML</request-data-binding>
+				<response-data-binding>XML</response-data-binding>
+				<invocation-use-case>NegateServiceClient</invocation-use-case>
+			</invocation-options>
+			<pipeline-config>
+				<response-handlers>
+					<handler presence="Replaceable" name="MessageContextHandler">
+				     <class-name>org.ebayopensource.turmeric.runtime.sif.impl.handlers.MessageContextHandler</class-name>
+						<options>
+					    	<option name="transport-headers">LOG-PROCESS-ID,LOG-SEQUENCE-ID</option>
+						</options>
+					</handler>
+				</response-handlers>
+				<request-handlers>
+					<handler presence="Replaceable" name="MessageContextHandler">
+				     <class-name>org.ebayopensource.turmeric.runtime.sif.impl.handlers.MessageContextHandler</class-name>
+						<options>
+					    	<option name="transport-headers">LOG-PROCESS-ID,LOG-SEQUENCE-ID</option>
+						</options>
+					</handler>
+					<handler name="RequestLogHeaderHandler">
+						<class-name>dev.log.handler.RequestLogHeaderHandler</class-name>
+					</handler>
+				</request-handlers>
+			</pipeline-config>
+		</client-instance-config>
+	</client-config>
+</client-config-list>
+

@@ -1,0 +1,226 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.mylyn.commons.identity,0.8.0.v20110608-1400,"org.eclipse.mylyn.commons.identity",1322134204279
+started,bundle,org.eclipse.mylyn.commons.net,3.6.0.v20110608-1400,"org.eclipse.mylyn.commons.net",1322134204279
+started,bundle,org.eclipse.mylyn.commons.ui,3.6.1.v20110720-0100,"org.eclipse.mylyn.commons.ui",1322134204279
+started,bundle,org.eclipse.mylyn.context.core,3.6.1.v20110720-0100,"org.eclipse.mylyn.context.core",1322134204280
+started,bundle,org.eclipse.mylyn.context.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.context.ui",1322134204280
+started,bundle,org.eclipse.mylyn.monitor.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.monitor.ui",1322134204281
+started,bundle,org.eclipse.mylyn.tasks.ui,3.6.1.v20110728-0200,"org.eclipse.mylyn.tasks.ui",1322134204282
+started,bundle,org.eclipse.mylyn.team.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.team.ui",1322134204283
+started,bundle,org.maven.ide.eclipse,0.12.1.20110112-1712,"org.maven.ide.eclipse",1322134204283
+started,bundle,org.maven.ide.eclipse.jdt,0.12.1.20110112-1712,"org.maven.ide.eclipse.jdt",1322134204284
+started,bundle,org.maven.ide.eclipse.maven_model_edit,0.12.1.20110112-1712,"org.maven.ide.eclipse.maven_model_edit",1322134204284
+os,sysinfo,,,"win32",1322134204287
+arch,sysinfo,,,"x86",1322134204287
+ws,sysinfo,,,"win32",1322134204287
+locale,sysinfo,,,"nl_NL",1322134204287
+processors,sysinfo,,,"4",1322134204287
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1322134204287
+java.runtime.version,sysinfo,,,"1.7.0-b147",1322134204287
+java.specification.name,sysinfo,,,"Java Platform API Specification",1322134204287
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1322134204287
+java.specification.version,sysinfo,,,"1.7",1322134204287
+java.vendor,sysinfo,,,"Oracle Corporation",1322134204287
+java.version,sysinfo,,,"1.7.0",1322134204287
+java.vm.info,sysinfo,,,"mixed mode, sharing",1322134204287
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1322134204287
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1322134204287
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1322134204287
+java.vm.specification.version,sysinfo,,,"1.7",1322134204287
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1322134204287
+java.vm.version,sysinfo,,,"21.0-b17",1322134204287
+started,bundle,org.ebayopensource.turmeric.eclipse.utils,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.utils",1322134204787
+started,bundle,org.ebayopensource.turmeric.eclipse.repositorysystem.imp,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.repositorysystem.imp",1322134204799
+started,bundle,org.ebayopensource.turmeric.eclipse.logging,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.logging",1322134204800
+started,bundle,org.ebayopensource.turmeric.eclipse.buildsystem,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.buildsystem",1322134204806
+started,bundle,org.ebayopensource.turmeric.eclipse.build,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.build",1322134204809
+started,bundle,org.ebayopensource.turmeric.eclipse.repositorysystem,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.repositorysystem",1322134204830
+started,bundle,org.ebayopensource.turmeric.eclipse.codegen,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.codegen",1322134204837
+started,bundle,org.ebayopensource.turmeric.eclipse.validator,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.validator",1322134204846
+started,bundle,org.ebayopensource.turmeric.eclipse.soatools,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.soatools",1322134204869
+started,bundle,org.ebayopensource.turmeric.eclipse.resources,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.resources",1322134204905
+started,bundle,org.eclipse.jdt.apt.core,3.3.402.R36_v20110120-1000,"org.eclipse.jdt.apt.core",1322134204943
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.301.R36_v20100727-0110,"org.eclipse.jdt.apt.pluggable.core",1322134204946
+started,bundle,org.eclipse.core.variables,3.2.400.v20100505,"org.eclipse.core.variables",1322134204981
+started,bundle,org.eclipse.ui.navigator,3.5.0.I20100601-0800,"org.eclipse.ui.navigator",1322134205743
+started,bundle,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.resources",1322134205750
+started,bundle,org.eclipse.emf.edit,2.6.0.v20100914-1218,"org.eclipse.emf.edit",1322134205928
+started,bundle,org.eclipse.emf.common.ui,2.6.0.v20100914-1218,"org.eclipse.emf.common.ui",1322134205929
+started,bundle,org.eclipse.emf.edit.ui,2.6.0.v20100914-1218,"org.eclipse.emf.edit.ui",1322134205931
+started,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.400.v201004110600,"org.eclipse.jst.j2ee.webservice.ui",1322134205931
+started,bundle,org.eclipse.wst.common.frameworks,1.2.0.v201003040800,"org.eclipse.wst.common.frameworks",1322134205938
+started,bundle,org.eclipse.wst.common.emf,1.2.3.v201012100400,"org.eclipse.wst.common.emf",1322134205945
+started,bundle,org.eclipse.jem.util,2.1.3.v201012070000,"org.eclipse.jem.util",1322134205951
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.3.v201012020600,"org.eclipse.wst.common.emfworkbench.integration",1322134205956
+started,bundle,org.eclipse.jst.j2ee.webservice,1.1.400.v201004110600,"org.eclipse.jst.j2ee.webservice",1322134205961
+started,bundle,org.eclipse.jst.jee.ui,1.0.305.v201105110300,"org.eclipse.jst.jee.ui",1322134206023
+started,bundle,org.eclipse.jst.j2ee.ui,1.1.405.v201104141600,"org.eclipse.jst.j2ee.ui",1322134206027
+started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.403.v201012020600,"org.eclipse.jst.j2ee.navigator.ui",1322134206029
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1322134206057
+started,bundle,org.eclipse.wst.common.modulecore,1.2.6.v201103310300,"org.eclipse.wst.common.modulecore",1322134206061
+started,bundle,org.eclipse.jst.j2ee.core,1.2.5.v201104261700,"org.eclipse.jst.j2ee.core",1322134206066
+started,bundle,org.eclipse.jem,2.0.401.v201104271300,"org.eclipse.jem",1322134206077
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.0.v201004080500,"org.eclipse.wst.common.frameworks.ui",1322134206095
+started,bundle,org.eclipse.wst.xml.core,1.1.504.v201104070043,"org.eclipse.wst.xml.core",1322134206097
+started,bundle,org.eclipse.wst.validation,1.2.202.v201103212041,"org.eclipse.wst.validation",1322134206105
+started,bundle,org.eclipse.jst.j2ee,1.1.405.v201104141500,"org.eclipse.jst.j2ee",1322134206306
+started,bundle,org.ebayopensource.turmeric.eclipse.maven.core,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.maven.core",1322134206464
+started,bundle,org.ebayopensource.turmeric.eclipse.maven.sconfig,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.maven.sconfig",1322134206465
+started,bundle,org.eclipse.wst.jsdt.core,1.1.5.v201104272136,"org.eclipse.wst.jsdt.core",1322134206523
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.200.v201004150600,"org.eclipse.wst.jsdt.manipulation",1322134206605
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.5.v201104070556,"org.eclipse.wst.jsdt.ui",1322134206608
+opened,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134206946
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134207034
+started,bundle,org.eclipse.jst.servlet.ui,1.1.405.v201104141500,"org.eclipse.jst.servlet.ui",1322134207428
+started,bundle,org.eclipse.jst.ws.jaxws.dom.integration,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.integration",1322134207447
+started,bundle,org.eclipse.jst.ws.jaxws.dom.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.ui",1322134207452
+error,log,,,"Unable to update index for codehaus|http://snapshots.repository.codehaus.org/",1322134208095
+opened,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322134208135
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322134208255
+started,bundle,org.ebayopensource.turmeric.eclipse.exception,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.exception",1322134208943
+started,bundle,org.ebayopensource.turmeric.eclipse.mavenapi,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.mavenapi",1322134208956
+started,bundle,org.ebayopensource.turmeric.eclipse.config,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.config",1322134209122
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134209486
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.202.v201004211732,"org.eclipse.wst.ws.service.policy.ui",1322134213384
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.204.v201011011834,"org.eclipse.wst.ws.service.policy",1322134213386
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1322134213397
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1322134213398
+started,bundle,org.ebayopensource.turmeric.eclipse.services,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.services",1322134213417
+started,bundle,org.ebayopensource.turmeric.eclipse.ui,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.ui",1322134213422
+started,bundle,org.maven.ide.eclipse.editor,0.12.1.20110112-1712,"org.maven.ide.eclipse.editor",1322134213457
+started,bundle,org.maven.ide.eclipse.refactoring,0.12.1.20110112-1712,"org.maven.ide.eclipse.refactoring",1322134213469
+started,bundle,org.eclipse.compare,3.5.101.R36x_v20100929-0800,"org.eclipse.compare",1322134213517
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322134219120
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134220375
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134225283
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134227571
+executed,command,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.project.cleanAction",1322134227578
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134229870
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134231289
+executed,command,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.project.cleanAction",1322134231296
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134232161
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134242154
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134243914
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134248195
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322134248209
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134252206
+opened,view,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.views.AllMarkersView",1322134262173
+activated,view,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.views.AllMarkersView",1322134262205
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134271656
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134273369
+executed,command,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.project.cleanAction",1322134273392
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134273671
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134274083
+started,bundle,org.ebayopensource.turmeric.eclipse.typelibrary,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.typelibrary",1322134274240
+started,bundle,org.eclipse.wst.wsdl,1.2.104.v201012082239,"org.eclipse.wst.wsdl",1322134274291
+started,bundle,org.eclipse.xsd,2.6.0.v20100914-1218,"org.eclipse.xsd",1322134274314
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134275763
+activated,view,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.views.AllMarkersView",1322134281514
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134286266
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.refresh",1322134290707
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134291000
+started,bundle,org.ebayopensource.turmeric.eclipse.core,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.core",1322134294048
+error,log,,,"24-nov-2011 12:31:34 CET [Turmeric] org.ebayopensource.turmeric.eclipse.core.exception.SOAExceptionHandler  silentHandleException\r\n SEVERE: javax.xml.bind.UnmarshalException\n  - with linked exception:\n [org.xml.sax.SAXParseException; Premature end of file.]",1322134294496
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134296677
+error,log,,,"24-nov-2011 12:31:36 CET [Turmeric] org.ebayopensource.turmeric.tools.library.builders.TypeLibraryParser  processTypeDepXMLFileForGen\r\n SEVERE: Unable to parse the TypeDepedencies.xml file, of library MultiplyService its content could be invalid",1322134296748
+error,log,,,"24-nov-2011 12:31:36 CET [Turmeric] org.ebayopensource.turmeric.tools.codegen.external.AxisJavaWSDLGeneratorImpl  getAllDependentLibraryNames\r\n SEVERE: org.xml.sax.SAXParseException; Premature end of file.",1322134296749
+error,log,,,"24-nov-2011 12:31:39 CET [Turmeric] org.ebayopensource.turmeric.eclipse.buildsystem.eclipse.AbstractSOAProjectBuilder  build\r\n SEVERE: Can not load metadata for service->NegateService",1322134299284
+error,log,,,"24-nov-2011 12:31:40 CET [Turmeric] org.ebayopensource.turmeric.eclipse.core.exception.SOAExceptionHandler  silentHandleException\r\n SEVERE: org.ebayopensource.turmeric.common.config.TypeLibraryDependencyType$JaxbAccessorF_type cannot be cast to com.sun.xml.internal.bind.v2.runtime.reflect.Accessor",1322134300604
+error,log,,,"24-nov-2011 12:31:41 CET [Turmeric] org.ebayopensource.turmeric.tools.library.builders.TypeLibraryParser  processTypeDepXMLFileForGen\r\n SEVERE: Unable to parse the TypeDepedencies.xml file, of library ParseService its content could be invalid",1322134301005
+error,log,,,"24-nov-2011 12:31:41 CET [Turmeric] org.ebayopensource.turmeric.tools.codegen.external.AxisJavaWSDLGeneratorImpl  getAllDependentLibraryNames\r\n SEVERE: org.xml.sax.SAXParseException; Premature end of file.",1322134301006
+error,log,,,"24-nov-2011 12:31:43 CET [Turmeric] org.ebayopensource.turmeric.eclipse.core.exception.SOAExceptionHandler  silentHandleException\r\n SEVERE: org.ebayopensource.turmeric.common.config.TypeLibraryDependencyType$JaxbAccessorF_type cannot be cast to com.sun.xml.internal.bind.v2.runtime.reflect.Accessor",1322134303101
+error,log,,,"24-nov-2011 12:31:43 CET [Turmeric] org.ebayopensource.turmeric.tools.library.builders.TypeLibraryParser  processTypeDepXMLFileForGen\r\n SEVERE: Unable to parse the TypeDepedencies.xml file, of library PowerService its content could be invalid",1322134303468
+error,log,,,"24-nov-2011 12:31:43 CET [Turmeric] org.ebayopensource.turmeric.tools.codegen.external.AxisJavaWSDLGeneratorImpl  getAllDependentLibraryNames\r\n SEVERE: org.xml.sax.SAXParseException; Premature end of file.",1322134303470
+error,log,,,"24-nov-2011 12:31:46 CET [Turmeric] org.ebayopensource.turmeric.eclipse.core.exception.SOAExceptionHandler  silentHandleException\r\n SEVERE: org.ebayopensource.turmeric.common.config.TypeLibraryDependencyType$JaxbAccessorF_type cannot be cast to com.sun.xml.internal.bind.v2.runtime.reflect.Accessor",1322134306141
+error,log,,,"24-nov-2011 12:31:46 CET [Turmeric] org.ebayopensource.turmeric.tools.library.builders.TypeLibraryParser  processTypeDepXMLFileForGen\r\n SEVERE: Unable to parse the TypeDepedencies.xml file, of library SumService its content could be invalid",1322134306481
+error,log,,,"24-nov-2011 12:31:46 CET [Turmeric] org.ebayopensource.turmeric.tools.codegen.external.AxisJavaWSDLGeneratorImpl  getAllDependentLibraryNames\r\n SEVERE: org.xml.sax.SAXParseException; Premature end of file.",1322134306482
+started,bundle,org.eclipse.jst.jee,1.0.303.v201103311600,"org.eclipse.jst.jee",1322134314397
+activated,view,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.views.AllMarkersView",1322134319356
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322134328818
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134329200
+started,bundle,org.maven.ide.eclipse.editor.xml,0.12.1.20110112-1712,"org.maven.ide.eclipse.editor.xml",1322134333264
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1322134333285
+started,bundle,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui",1322134353361
+started,bundle,org.eclipse.wst.sse.ui,1.2.4.v201103231819,"org.eclipse.wst.sse.ui",1322134353369
+started,bundle,org.eclipse.debug.ui,3.6.3.v20101201_r362,"org.eclipse.debug.ui",1322134353490
+started,bundle,org.eclipse.wst.xsl.core,1.1.0.v201004290328,"org.eclipse.wst.xsl.core",1322134353536
+started,bundle,org.eclipse.wst.xsl.exslt.core,1.0.0.v201005240426,"org.eclipse.wst.xsl.exslt.core",1322134353536
+started,bundle,org.eclipse.jst.jsp.ui,1.1.504.v201103231819,"org.eclipse.jst.jsp.ui",1322134353589
+started,bundle,org.eclipse.jst.jsp.core,1.2.305.v201104281428,"org.eclipse.jst.jsp.core",1322134353619
+started,bundle,org.eclipse.wst.dtd.ui,1.0.500.v201004290328,"org.eclipse.wst.dtd.ui",1322134353736
+started,bundle,org.eclipse.wst.xsl.ui,1.1.1.v201009091745,"org.eclipse.wst.xsl.ui",1322134353770
+opened,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134353813
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134354004
+started,bundle,org.eclipse.jem.workbench,2.0.301.v201104271300,"org.eclipse.jem.workbench",1322134354824
+started,bundle,org.eclipse.wst.internet.cache,1.0.400.v201004280700,"org.eclipse.wst.internet.cache",1322134354865
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134355913
+opened,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134357418
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134357447
+started,bundle,org.eclipse.mylyn.java.tasks,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.tasks",1322134360342
+started,bundle,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.ui",1322134360356
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1322134360435
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1322134362245
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134366911
+closed,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134366912
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134367714
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134368603
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322134369583
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.selectAll",1322134371006
+executed,command,org.eclipse.wst.sse.ui,1.2.4.v201103231819,"org.eclipse.wst.sse.ui.format.active.elements",1322134371214
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322134371666
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134372683
+opened,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134374612
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134374637
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134376793
+opened,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134378780
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134378807
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322134380965
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322134382120
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322134383563
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.selectAll",1322134384405
+executed,command,org.eclipse.wst.sse.ui,1.2.4.v201103231819,"org.eclipse.wst.sse.ui.format.active.elements",1322134384837
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322134385079
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134386927
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134387825
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1322134389661
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134390592
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134392052
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322134394405
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.selectAll",1322134395761
+executed,command,org.eclipse.wst.sse.ui,1.2.4.v201103231819,"org.eclipse.wst.sse.ui.format.active.elements",1322134395909
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322134396384
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134398658
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134399890
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134401768
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134402941
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134403921
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134405629
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134407370
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134408697
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134409527
+closed,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134409527
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134411018
+closed,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134411018
+started,bundle,org.eclipse.jdt.debug,3.6.1.v20100715_r361,"org.eclipse.jdt.debug",1322134412700
+started,bundle,org.eclipse.jdt.debug.ui,3.5.2.v20100928a_r362,"org.eclipse.jdt.debug.ui",1322134413176
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322134413201
+closed,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134413201
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134414636
+started,bundle,org.eclipse.jdt.junit.core,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.junit.core",1322134417651
+started,bundle,org.maven.ide.eclipse.launching,0.12.1.20110112-1712,"org.maven.ide.eclipse.launching",1322134418607
+executed,command,org.maven.ide.eclipse.launching,0.12.1.20110112-1712,"org.maven.ide.eclipse.pomFileAction.run",1322134418615
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322134419809
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134423470
+opened,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134441094
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134441160
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322134442392
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322134442912
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322134446010
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322134447035
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1322134448727
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1322134449398
+opened,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134450619
+activated,editor,org.eclipse.wst.xml.ui,1.1.104.v201103021532,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1322134450645
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134451788
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.findReplace",1322134451810
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322134453032

@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"JavaBuilder handling CoreException",1322140402766
+error,log,,,"JavaBuilder handling CoreException",1322140402827
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140402871
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322140406693
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140415056
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140425655
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322140425671
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.text.contentAssist.proposals",1322140444287
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140445615
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140451407
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140462438
+error,log,,,"JavaBuilder handling CoreException",1322140462622
+error,log,,,"JavaBuilder handling CoreException",1322140462630
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140462664
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322140466107
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140468761
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140472323
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322140472342
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140485869
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140492261
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140504230
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140514697
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.cut",1322140517527
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322140518422
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.cut",1322140522617
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322140525550
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140541385
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140541541
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140543087
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140543281
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140547831
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140548019
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322140553221
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1322140556236
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322140557110
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140558388
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140558552
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140563761
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140563962
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.text.contentAssist.proposals",1322140569449
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.text.contentAssist.proposals",1322140577916
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.text.contentAssist.proposals",1322140579068
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1322140593649
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.text.contentAssist.proposals",1322140594091
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140595454
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140617937
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140630503
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140630689
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1322140636402
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322140636969
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140637431
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1322140638742
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322140639365
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140639733
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140639930
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140642871
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140643197
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140647923
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140648127
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140651283
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140651502
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322140658148
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322140659447
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322140659804
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322140662121
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140664556
+error,log,,,"JavaBuilder handling CoreException",1322140664700
+error,log,,,"JavaBuilder handling CoreException",1322140664710
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140664748
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140667633
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140668062
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322140668075
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322140670808
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322140673234
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140675846
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140680314
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322140680333
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.text.contentAssist.proposals",1322140691046
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140694556
+error,log,,,"JavaBuilder handling CoreException",1322140694754
+error,log,,,"JavaBuilder handling CoreException",1322140694764
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140694820
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322140701273
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140710639
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140713226
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322140713243
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140718413
+error,log,,,"JavaBuilder handling CoreException",1322140718605
+error,log,,,"JavaBuilder handling CoreException",1322140718614
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140718678
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322140722266
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140729453
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140733474
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322140733494
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140736981
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140737199
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.redo",1322140738273
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140741593
+error,log,,,"JavaBuilder handling CoreException",1322140741776
+error,log,,,"JavaBuilder handling CoreException",1322140741785
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140741897
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322140745331
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140752121
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140755022
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322140755047
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140763773
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140843887
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322140850179
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140851127
+error,log,,,"JavaBuilder handling CoreException",1322140851313
+error,log,,,"JavaBuilder handling CoreException",1322140851324
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140851359
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140858296
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140858487
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.delete",1322140866224
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.delete",1322140866363
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140868794
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140869006
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140874684
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140874791
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140876134
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140876400
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322140879219
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140886357
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140889794
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322140889815
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140890577
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140890949
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140891265
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140891605
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140891883
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140892263
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140893356
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140894045
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1322140895268
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140895547
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140897165
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140897605
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322140968357
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140969413
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140969976
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140970233
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140970499
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140970833
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140971508
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322140971862
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140974210
+error,log,,,"JavaBuilder handling CoreException",1322140974409
+error,log,,,"JavaBuilder handling CoreException",1322140974430
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140974458
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.text.contentAssist.proposals",1322140989241
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322140990247
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322140990433
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322140997024
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141005923
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322141006942
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322141008017
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141010036
+error,log,,,"JavaBuilder handling CoreException",1322141010206
+error,log,,,"JavaBuilder handling CoreException",1322141010216
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141010247
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141023822
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141024013
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322141030195
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141031244
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322141031858
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141032834
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141034448
+error,log,,,"JavaBuilder handling CoreException",1322141034647
+error,log,,,"JavaBuilder handling CoreException",1322141034658
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141034711
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322141037872
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141044892
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141050993
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141051013
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141052490
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141054312
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322141056257
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141062909
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141067033
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141067635
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141079571
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141079590
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141080889
+executed,command,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.editors.lineNumberToggle",1322141084193
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141094739
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141098425
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.text.contentAssist.proposals",1322141107363
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1322141110699
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322141111110
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141111258
+error,log,,,"JavaBuilder handling CoreException",1322141111433
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141111457
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322141114366
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141117117
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141117999
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141124425
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1322141131391
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141133297
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141134646
+executed,command,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1322141134670
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141136523
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141138851
+executed,command,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1322141138889
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141139436
+error,log,,,"JavaBuilder handling CoreException",1322141140111
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141140136
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141143078
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141143625
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322141143636
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141146422
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141147357
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141162231
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141172699
+error,log,,,"JavaBuilder handling CoreException",1322141172879
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141172906
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141187510
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141187698
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322141191408
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141193726
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141194633
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141199147
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141214606
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141214629
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141234268
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141279806
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141292906
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141293830
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141300431
+error,log,,,"JavaBuilder handling CoreException",1322141300612
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141300636
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322141304900
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141305395
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141307594
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141311298
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141315913
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141315936
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141319803
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141323924
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322141328951
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322141329605
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322141330043
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141332742
+error,log,,,"JavaBuilder handling CoreException",1322141332915
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141332944
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.cut",1322141337587
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141337973
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141338152
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322141339562
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141343592
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141343826
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141348981
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141349179
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322141351602
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141351910
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141355098
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141360481
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141386421
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141386442
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322141388166
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1322141388586
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141389278
+error,log,,,"JavaBuilder handling CoreException",1322141389474
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141389498
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1322141408035
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1322141410583
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1322141417071
+stopped,bundle,org.eclipse.bpel.runtimes,0.5.0.qualifier,"org.eclipse.bpel.runtimes",1322141417287
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322141420897
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141421467
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141424004
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141428560
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322141439883
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141439904
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1322141446631

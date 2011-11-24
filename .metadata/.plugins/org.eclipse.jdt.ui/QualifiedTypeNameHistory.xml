@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.mail.MessageAware"/>
-<fullyQualifiedTypeName name="org.ebayopensource.turmeric.runtime.common.impl.internal.pipeline.MessageContextAccessorImpl"/>
 <fullyQualifiedTypeName name="org.ebayopensource.turmeric.runtime.common.pipeline.MessageContext"/>
 <fullyQualifiedTypeName name="calculations.dev.negateservice.NegateService"/>
 <fullyQualifiedTypeName name="calculations.dev.negateservice.NegateServiceImpl"/>
@@ -15,4 +14,13 @@
 <fullyQualifiedTypeName name="calculations.dev.MultiplyRequest"/>
 <fullyQualifiedTypeName name="calculations.dev.parseservice.ParseServiceImpl"/>
 <fullyQualifiedTypeName name="calculations.dev.SumRequest"/>
+<fullyQualifiedTypeName name="org.ebayopensource.turmeric.runtime.common.impl.internal.pipeline.MessageContextAccessorImpl"/>
+<fullyQualifiedTypeName name="org.ebayopensource.turmeric.runtime.common.pipeline.Handler.InitContext"/>
+<fullyQualifiedTypeName name="org.ebayopensource.turmeric.runtime.common.pipeline.Message"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.IOError"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="dev.log.trace.TraceStatePoint"/>
 </qualifiedTypeNameHistroy>

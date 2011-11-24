@@ -13,13 +13,13 @@
 				<response-data-binding>XML</response-data-binding>
 				<invocation-use-case>ParseServiceClient</invocation-use-case>
 			</invocation-options>
-			<pipeline-config>
+			<!-- <pipeline-config>
 				<request-handlers>
 					<handler name="RequestLogHeaderHandler">
 						<class-name>dev.log.handler.RequestLogHeaderHandler</class-name>
 					</handler>
 				</request-handlers>
-			</pipeline-config>
+			</pipeline-config> -->
 		</client-instance-config>
 	</client-config>
 </client-config-list>

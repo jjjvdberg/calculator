@@ -1,5 +1,10 @@
 package calculations.dev.parseservice;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
 import org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException;
 
 import calculations.dev.ParseRequest;
@@ -21,8 +26,19 @@ public class ParseServiceConsumer extends SharedParseServiceConsumer {
 		return response.getOutput();
 	}
 	
-	public static void main(String[] args) throws ServiceException {
-		System.out.println(parse("-3*2"));
+	public static void main(String[] args) throws ServiceException, IOException {
+		/**
+		 * Enter the testcases!
+		 */
+		PrintWriter writer = new PrintWriter(new FileWriter(new File("error_output.txt"),true));
+		writer.println("-- Begin testcase --");
+		writer.println(parse("-3^3") == -27);
+		writer.println(parse("3+3") == 6);
+		writer.println(parse("-3*9") == -27);
+		writer.println(parse("-3*-5") == 15);
+		writer.println(parse("3*10") == 30);
+		writer.println("-- End testcase --");
+		writer.flush();
 	}
 
 }

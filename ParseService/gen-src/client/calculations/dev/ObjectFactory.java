@@ -35,19 +35,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ParseRequest }
-     * 
-     */
-    public ParseRequest createParseRequest() {
-        return new ParseRequest();
-    }
-
-    /**
      * Create an instance of {@link ParseResponse }
      * 
      */
     public ParseResponse createParseResponse() {
         return new ParseResponse();
+    }
+
+    /**
+     * Create an instance of {@link ParseRequest }
+     * 
+     */
+    public ParseRequest createParseRequest() {
+        return new ParseRequest();
     }
 
     /**
