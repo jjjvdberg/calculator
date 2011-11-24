@@ -34,17 +34,15 @@
       <version>1.0.0</version>
     </dependency>
     <dependency>
-    	<groupId>org.ebayopensource.turmeric.client</groupId>
-    	<artifactId>NegateServiceConsumer</artifactId>
+    	<groupId>org.ebayopensource.turmeric.impl</groupId>
+    	<artifactId>SumServiceImpl</artifactId>
     	<version>1.0.0</version>
-    	<type>jar</type>
     	<scope>compile</scope>
     </dependency>
     <dependency>
-    	<groupId>org.ebayopensource.turmeric.client</groupId>
-    	<artifactId>SumServiceConsumer</artifactId>
+    	<groupId>org.ebayopensource.turmeric.impl</groupId>
+    	<artifactId>NegateServiceImpl</artifactId>
     	<version>1.0.0</version>
-    	<type>jar</type>
     	<scope>compile</scope>
     </dependency>
   </dependencies>

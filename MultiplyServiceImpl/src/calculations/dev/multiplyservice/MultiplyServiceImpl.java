@@ -7,9 +7,7 @@ import calculations.dev.MultiplyRequest;
 import calculations.dev.MultiplyResponse;
 import calculations.dev.NegateRequest;
 import calculations.dev.SumRequest;
-import calculations.dev.negateservice.NegateServiceConsumer;
 import calculations.dev.negateservice.gen.SharedNegateServiceConsumer;
-import calculations.dev.sumservice.SumServiceConsumer;
 import calculations.dev.sumservice.gen.SharedSumServiceConsumer;
 
 public class MultiplyServiceImpl

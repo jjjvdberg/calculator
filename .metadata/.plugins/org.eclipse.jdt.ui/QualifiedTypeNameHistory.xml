@@ -5,12 +5,14 @@
 <fullyQualifiedTypeName name="org.ebayopensource.turmeric.runtime.common.pipeline.MessageContext"/>
 <fullyQualifiedTypeName name="calculations.dev.negateservice.NegateService"/>
 <fullyQualifiedTypeName name="calculations.dev.negateservice.NegateServiceImpl"/>
-<fullyQualifiedTypeName name="calculations.dev.powerservice.gen.SharedPowerServiceConsumer"/>
 <fullyQualifiedTypeName name="dev.log.handler.RequestLogHeaderHandler"/>
+<fullyQualifiedTypeName name="calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer"/>
 <fullyQualifiedTypeName name="calculations.dev.sumservice.gen.SharedSumServiceConsumer"/>
 <fullyQualifiedTypeName name="calculations.dev.negateservice.gen.SharedNegateServiceConsumer"/>
-<fullyQualifiedTypeName name="calculations.dev.SumRequest"/>
+<fullyQualifiedTypeName name="calculations.dev.powerservice.gen.SharedPowerServiceConsumer"/>
 <fullyQualifiedTypeName name="calculations.dev.NegateRequest"/>
-<fullyQualifiedTypeName name="calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer"/>
+<fullyQualifiedTypeName name="calculations.dev.PowerRequest"/>
 <fullyQualifiedTypeName name="calculations.dev.MultiplyRequest"/>
+<fullyQualifiedTypeName name="calculations.dev.parseservice.ParseServiceImpl"/>
+<fullyQualifiedTypeName name="calculations.dev.SumRequest"/>
 </qualifiedTypeNameHistroy>

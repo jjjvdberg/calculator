@@ -6,7 +6,6 @@ import org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException;
 import calculations.dev.MultiplyRequest;
 import calculations.dev.PowerRequest;
 import calculations.dev.PowerResponse;
-import calculations.dev.multiplyservice.MultiplyServiceConsumer;
 import calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer;
 
 public class PowerServiceImpl

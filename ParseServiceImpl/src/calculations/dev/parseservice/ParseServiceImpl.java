@@ -12,7 +12,6 @@ import calculations.dev.SumRequest;
 import calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer;
 import calculations.dev.negateservice.gen.SharedNegateServiceConsumer;
 import calculations.dev.powerservice.gen.SharedPowerServiceConsumer;
-import calculations.dev.sumservice.SumServiceConsumer;
 import calculations.dev.sumservice.gen.SharedSumServiceConsumer;
 
 public class ParseServiceImpl
