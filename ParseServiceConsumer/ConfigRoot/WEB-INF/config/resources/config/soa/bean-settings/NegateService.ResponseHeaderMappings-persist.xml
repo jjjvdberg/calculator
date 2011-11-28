@@ -3,7 +3,7 @@
 	xmlns:ebay="http://www.ebay.com"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 >
-  <config-category id="org.ebayopensource.turmeric.server.NegateService.ResponseHeaderMappings" alias="null" group="org.ebayopensource.turmeric.server" site-ops-command="true" category-desc="SOA Service ResponseHeaderMappings Config for NegateService" persist-updates="true" timestamp="Thu Nov 24 15:48:54 CET 2011" Validator="com.ebay.kernel.bean.configuration.adapter.ConfigManagementValidatorAdapter" >
+  <config-category id="org.ebayopensource.turmeric.server.NegateService.ResponseHeaderMappings" alias="null" group="org.ebayopensource.turmeric.server" site-ops-command="true" category-desc="SOA Service ResponseHeaderMappings Config for NegateService" persist-updates="true" timestamp="Mon Nov 28 14:45:11 CET 2011" Validator="com.ebay.kernel.bean.configuration.adapter.ConfigManagementValidatorAdapter" >
     <attribute name="EXTERNAL_MUTABLE" value="true" type="java.lang.Boolean" />
   </config-category>
 </ebay:config-category-file>

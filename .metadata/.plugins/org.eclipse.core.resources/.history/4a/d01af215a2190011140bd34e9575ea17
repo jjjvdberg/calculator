@@ -1,0 +1,12 @@
+package dev.log.trace;
+
+import junit.framework.Test;
+import junit.framework.TestResult;
+
+public class TestMySQLConnector{
+	
+	public static void main(String[] args) {
+		new TestMySQLConnector().run(new TestResult());
+	}
+	
+}

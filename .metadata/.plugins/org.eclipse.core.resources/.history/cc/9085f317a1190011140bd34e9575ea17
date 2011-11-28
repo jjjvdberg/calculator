@@ -1,0 +1,23 @@
+package dev.log.trace;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class MySQLConnector {
+
+	private static String DB_USERNAME = "root";
+	private static String DB_PASSWORD = "root";
+	private static String DB_URL = "jdbc:mysql://localhost/";
+	
+	private Connection connection = null;
+	
+	public MySQLConnector() {
+		try {
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			connection = DriverManager.getConnection(DB_URL,DB_USERNAME,DB_PASSWORD);
+			System.out.println("DB connected");
+		} catch {
+			
+		}
+	}
+}

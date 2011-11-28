@@ -1,0 +1,23 @@
+package dev.log.trace;
+
+import junit.framework.Test;
+import junit.framework.TestResult;
+
+public class TestMySQLConnector implements Test{
+
+	@Override
+	public int countTestCases() {
+		return 1;
+	}
+
+	@Override
+	public void run(TestResult arg0) {
+		MySQLConnector connector = new MySQLConnector();
+		connector.close();
+	}
+	
+	public static void main(String[] args) {
+		run()
+	}
+	
+}

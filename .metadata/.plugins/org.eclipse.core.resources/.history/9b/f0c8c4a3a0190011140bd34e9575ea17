@@ -1,0 +1,5 @@
+package dev.log.trace;
+
+public class MySQLConnector {
+
+}

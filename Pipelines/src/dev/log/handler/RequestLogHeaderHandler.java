@@ -1,7 +1,5 @@
 package dev.log.handler;
 
-import java.util.Arrays;
-
 import org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException;
 import org.ebayopensource.turmeric.runtime.common.impl.handlers.BaseHandler;
 import org.ebayopensource.turmeric.runtime.common.pipeline.InboundMessage;
@@ -32,6 +30,7 @@ public class RequestLogHeaderHandler extends BaseHandler {
 		} else {
 			service_id = ctx.getServiceId().getAdminName();
 		}
+		TraceStatePoint.init();
 	}
 	
 	@Override
@@ -59,9 +58,8 @@ public class RequestLogHeaderHandler extends BaseHandler {
 				/**
 				 * Initialize the request chain at this service
 				 */
-				processId = service_id + "_" + increaseRequestCount();
+				processId = service_id + "_" + TraceStatePoint.getNextRequestId();
 				invokerId = "";
-				TraceStatePoint.initiateSequence(processId);
 			}
 
 			requestMsg.setTransportHeader(PROCESS_ID, processId);
@@ -77,7 +75,6 @@ public class RequestLogHeaderHandler extends BaseHandler {
 		 */
 		else {
 			if(debug)System.out.println("Handling outgoing message:");
-			TraceStatePoint.increaseSequence(processId);
 		}
 		
 		if(debug)System.out.println("END OF REQUESTLOGHEADERHANDLER");
@@ -99,9 +96,8 @@ public class RequestLogHeaderHandler extends BaseHandler {
 			interface_id = ctx.getOperationName();
 			service_id = this.service_id;
 		}
-		String sequence_id = TraceStatePoint.getSequence(process_id);
-		TraceStatePoint point = new TraceStatePoint(process_id, interface_id, invoker_id, service_id, sequence_id);
-		point.logToFile();
+		TraceStatePoint point = new TraceStatePoint(process_id, interface_id, invoker_id, service_id);
+		point.log();
 		
 	}
 

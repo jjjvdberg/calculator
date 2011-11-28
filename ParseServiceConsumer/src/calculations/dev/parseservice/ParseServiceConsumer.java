@@ -1,15 +1,16 @@
 package calculations.dev.parseservice;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.util.List;
+import java.util.Map;
 
 import org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException;
 
 import calculations.dev.ParseRequest;
 import calculations.dev.ParseResponse;
 import calculations.dev.parseservice.gen.SharedParseServiceConsumer;
+import dev.log.trace.MySQLConnector;
+import dev.log.trace.SpectrumBasedFaultLocalization;
 
 public class ParseServiceConsumer extends SharedParseServiceConsumer {
 
@@ -30,15 +31,41 @@ public class ParseServiceConsumer extends SharedParseServiceConsumer {
 		/**
 		 * Enter the testcases!
 		 */
-		PrintWriter writer = new PrintWriter(new FileWriter(new File("error_output.txt"),true));
-		writer.println("-- Begin testcase --");
-		writer.println(parse("-3^3") == -27);
-		writer.println(parse("3+3") == 6);
-		writer.println(parse("-3*9") == -27);
-		writer.println(parse("-3*-5") == 15);
-		writer.println(parse("3*10") == 30);
-		writer.println("-- End testcase --");
-		writer.flush();
+		MySQLConnector connector = new MySQLConnector(SpectrumBasedFaultLocalization.DATABASE_NAME);
+		connector.createTable("CREATE TABLE IF NOT EXISTS "+SpectrumBasedFaultLocalization.ERROR_TABLE_NAME+" ("
+               + "id INT UNSIGNED NOT NULL AUTO_INCREMENT,"
+               + "PRIMARY KEY (id),"
+               + "process_id CHAR(40), error BOOL)");
+		
+		Boolean bool;
+		
+		bool = parse("-3^3") != -27;
+		addError(connector,bool);
+		
+		bool = parse("3+3") != 6;
+		addError(connector,bool);
+					
+		bool = parse("-3*9") != -27;
+		addError(connector,bool);
+					
+		bool = parse("-3*-5") != 15;
+		addError(connector,bool);
+					
+		bool = parse("3*10") != 30;
+		addError(connector,bool);
+			
+		SpectrumBasedFaultLocalization.createMetrics();
+	}
+	
+	private static void addError(MySQLConnector connector, boolean bool) {
+		List<Map> results = connector.select(String.format("SELECT process_id FROM %s WHERE id = (SELECT MAX(id) FROM %s);",
+				SpectrumBasedFaultLocalization.TABLE_NAME,
+				SpectrumBasedFaultLocalization.TABLE_NAME));
+		String process_id = (String)results.get(0).get("process_id");
+		connector.update(String.format("INSERT INTO %s VALUES (0,'%s',%s);",
+				SpectrumBasedFaultLocalization.ERROR_TABLE_NAME,
+				process_id,
+				bool));
 	}
 
 }

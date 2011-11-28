@@ -1,9 +1,0 @@
-package dev.log.trace;
-
-public class TraceStatePoint {
-
-	String service_id;
-	String interface_id;
-	String process_id;
-	String sequence_id;
-}

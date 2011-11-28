@@ -1,0 +1,40 @@
+package dev.log.trace;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class SpectrumBasedFaultLocalization {
+
+	public static final String DATABASE_NAME = "service_logging";
+	public static final String TABLE_NAME = "trace_point";
+	public static final String ERROR_TABLE_NAME = "trace_point_error";
+	
+	public static float sJ = 0;
+	public static float sT = 0;
+	public static float sO = 0;
+	
+	private static MySQLConnector connector = new MySQLConnector(DATABASE_NAME);
+	
+	private static Map<String,ArrayList<String>,Boolean> hitMap = new HashMap<String,ArrayList<String>>();
+	
+	public static void addError(String process_id) {
+		connector.update(String.format("INSERT INTO %s VALUES (0, '%s');",ERROR_TABLE_NAME,process_id));
+	}
+
+	public static void createMetrics() {
+		List results = connector.select(String.format("SELECT * FROM %s;",TABLE_NAME));
+		
+		for(int i = 0; i < results.size(); i++){
+			Map row = (Map)results.get(i); // database row
+			String process_id = (String)row.get("process_id");
+			String service_id = (String)row.get("service_id");
+			if(!hitMap.containsKey(process_id))
+				hitMap.put(process_id, new ArrayList<String>());
+			hitMap.get(process_id).add(service_id);
+		}
+		System.out.println(hitMap);
+		connector.close();
+	}
+}

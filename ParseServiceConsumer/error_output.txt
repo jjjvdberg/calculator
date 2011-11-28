@@ -5,3 +5,122 @@ true
 true
 true
 -- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --
+-- Begin testcase --
+false
+true
+false
+true
+true
+-- End testcase --

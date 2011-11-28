@@ -1,0 +1,88 @@
+package dev.log.trace;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+public class MySQLConnector {
+
+	private static String DB_USERNAME = "root";
+	private static String DB_PASSWORD = "root";
+	private static String DB_URL = "jdbc:mysql://localhost/";
+	
+	private Connection connection = null;
+	
+	public MySQLConnector() {
+		try {
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			connection = DriverManager.getConnection(DB_URL,DB_USERNAME,DB_PASSWORD);
+			System.out.println("DB connected");
+		} catch (SQLException e){
+			System.err.println("DB connection failed.");
+		} catch (IllegalAccessException e) {
+			System.err.println("Driver init failed.");
+		} catch (InstantiationException e) {
+			System.err.println("Driver init failed.");
+		} catch (ClassNotFoundException e) {
+			System.err.println("Driver class not found.");
+		}
+	}
+	
+	public ArrayList select(String table, String[] columns, String[] values) {
+		
+		String columnString = "";
+		String valueString = "WHERE ";
+		int valueCount = 0;
+		
+		for(int i = 0; i < columns.length; i++){
+			if(i > 0) columnString += ", ";
+			columnString += columns[i];
+		}
+		
+		for(int i = 0; i < values.length; i++){
+			String value = values[i];
+			if(value != null) {
+				if(valueCount > 0) valueString += ", ";
+				valueString += String.format("%s = '%s'", args);
+			}
+		}
+		
+		ArrayList result = new ArrayList();
+		
+		try {
+			Statement s = connection.createStatement();
+			s.executeQuery (String.format("SELECT %s FROM %s;",columnString,table);
+			ResultSet rs = s.getResultSet ();
+			int count = 0;
+			while (rs.next()) {
+				result.add(rs.)
+			    int idVal = rs.getInt ("id");
+			    String nameVal = rs.getString ("name");
+			    String catVal = rs.getString ("category");
+			    System.out.println ("id = " + idVal + ", name = " + nameVal + ", category = " + catVal);
+			    ++count;
+			}
+			rs.close ();
+			s.close ();
+			System.out.println (count + " rows were retrieved");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public void close() {
+		if (connection != null) {
+			try {
+				connection.close();
+				System.out.println("DB closed");
+			} catch (SQLException e){
+				System.err.println("Error while closing DB");
+			}
+		}
+	}
+}

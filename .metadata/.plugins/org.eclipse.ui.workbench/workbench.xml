@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="26" version="2.0">
+<workbench progressCount="25" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="161" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -22,7 +22,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.maven.ide.eclipse.editor.MavenPomEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -40,67 +40,31 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-<part id="13"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ParseServiceConsumer.java" partName="ParseServiceConsumer.java" path="C:/eclipse_workspaces/calculator/ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java" title="ParseServiceConsumer.java" tooltip="ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="902" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestLogHeaderHandler.java" partName="RequestLogHeaderHandler.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java" title="RequestLogHeaderHandler.java" tooltip="Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestLogHeaderHandler.java" partName="RequestLogHeaderHandler.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java" title="RequestLogHeaderHandler.java" tooltip="Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2625" selectionTopPixel="1071"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="MessageContextAccessorImpl.class" partName="MessageContextAccessorImpl.class" title="MessageContextAccessorImpl.class" tooltip="org.ebayopensource.turmeric.runtime.common.impl.internal.pipeline.MessageContextAccessorImpl" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=MultiplyService/C:\/Users\/Joel\/.m2\/repository\/org\/ebayopensource\/turmeric\/runtime\/soa-client\/1.0.1.0-SNAPSHOT\/soa-client-1.0.1.0-SNAPSHOT.jar&lt;org.ebayopensource.turmeric.runtime.common.impl.internal.pipeline(MessageContextAccessorImpl.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="36" selectionOffset="1296" selectionTopPixel="425"/>
-</editor>
-<editor id="org.maven.ide.eclipse.editor.MavenPomEditor" name="pom.xml" partName="NegateServiceImpl/pom.xml" path="C:/eclipse_workspaces/calculator/NegateServiceImpl/pom.xml" title="NegateServiceImpl/pom.xml" tooltip="NegateServiceImpl/pom.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NegateServiceImpl/pom.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SharedParseServiceConsumer.java" partName="SharedParseServiceConsumer.java" path="C:/eclipse_workspaces/calculator/ParseService/gen-src/client/calculations/dev/parseservice/gen/SharedParseServiceConsumer.java" title="SharedParseServiceConsumer.java" tooltip="ParseService/gen-src/client/calculations/dev/parseservice/gen/SharedParseServiceConsumer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseService/gen-src/client/calculations/dev/parseservice/gen/SharedParseServiceConsumer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="39" selectionOffset="5784" selectionTopPixel="2363"/>
-</editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" partName="ClientConfig.xml" path="C:/eclipse_workspaces/calculator/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/NegateService/ClientConfig.xml" title="ClientConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/NegateService/ClientConfig.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/NegateService/ClientConfig.xml"/>
-</editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ServiceConfig.xml" partName="ServiceConfig.xml" path="C:/eclipse_workspaces/calculator/ParseServiceImpl/meta-src/META-INF/soa/services/config/ParseService/ServiceConfig.xml" title="ServiceConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/services/config/ParseService/ServiceConfig.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseServiceImpl/meta-src/META-INF/soa/services/config/ParseService/ServiceConfig.xml"/>
-</editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ServiceConfig.xml" partName="ServiceConfig.xml" path="C:/eclipse_workspaces/calculator/NegateServiceImpl/meta-src/META-INF/soa/services/config/NegateService/ServiceConfig.xml" title="ServiceConfig.xml" tooltip="NegateServiceImpl/meta-src/META-INF/soa/services/config/NegateService/ServiceConfig.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NegateServiceImpl/meta-src/META-INF/soa/services/config/NegateService/ServiceConfig.xml"/>
-</editor>
-<editor id="org.maven.ide.eclipse.editor.MavenPomEditor" name="pom.xml" partName="MultiplyServiceImpl/pom.xml" path="C:/eclipse_workspaces/calculator/MultiplyServiceImpl/pom.xml" title="MultiplyServiceImpl/pom.xml" tooltip="MultiplyServiceImpl/pom.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MultiplyServiceImpl/pom.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PowerServiceImpl.java" partName="PowerServiceImpl.java" path="C:/eclipse_workspaces/calculator/PowerServiceImpl/src/calculations/dev/powerservice/PowerServiceImpl.java" title="PowerServiceImpl.java" tooltip="PowerServiceImpl/src/calculations/dev/powerservice/PowerServiceImpl.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PowerServiceImpl/src/calculations/dev/powerservice/PowerServiceImpl.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="695" selectionTopPixel="0"/>
-</editor>
-<editor id="org.maven.ide.eclipse.editor.MavenPomEditor" name="pom.xml" partName="PowerServiceImpl/pom.xml" path="C:/eclipse_workspaces/calculator/PowerServiceImpl/pom.xml" title="PowerServiceImpl/pom.xml" tooltip="PowerServiceImpl/pom.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PowerServiceImpl/pom.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiplyServiceImpl.java" partName="MultiplyServiceImpl.java" path="C:/eclipse_workspaces/calculator/MultiplyServiceImpl/src/calculations/dev/multiplyservice/MultiplyServiceImpl.java" title="MultiplyServiceImpl.java" tooltip="MultiplyServiceImpl/src/calculations/dev/multiplyservice/MultiplyServiceImpl.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MultiplyServiceImpl/src/calculations/dev/multiplyservice/MultiplyServiceImpl.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="502" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="MessageContextHandler.class" partName="MessageContextHandler.class" title="MessageContextHandler.class" tooltip="org.ebayopensource.turmeric.runtime.sif.impl.handlers.MessageContextHandler" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=ParseService/C:\/Users\/Joel\/.m2\/repository\/org\/ebayopensource\/turmeric\/runtime\/soa-client\/1.0.1.0-SNAPSHOT\/soa-client-1.0.1.0-SNAPSHOT.jar&lt;org.ebayopensource.turmeric.runtime.sif.impl.handlers(MessageContextHandler.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4775" selectionTopPixel="1700"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3129" selectionTopPixel="1359"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TraceStatePoint.java" partName="TraceStatePoint.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/TraceStatePoint.java" title="TraceStatePoint.java" tooltip="Pipelines/src/dev/log/trace/TraceStatePoint.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/TraceStatePoint.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="845" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1020" selectionTopPixel="68"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" partName="ClientConfig.xml" path="C:/eclipse_workspaces/calculator/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/MultiplyService/ClientConfig.xml" title="ClientConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/MultiplyService/ClientConfig.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/MultiplyService/ClientConfig.xml"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" partName="ClientConfig.xml" path="C:/eclipse_workspaces/calculator/MultiplyServiceImpl/meta-src/META-INF/soa/client/config/MultiplyService/production/NegateService/ClientConfig.xml" title="ClientConfig.xml" tooltip="MultiplyServiceImpl/meta-src/META-INF/soa/client/config/MultiplyService/production/NegateService/ClientConfig.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MultiplyServiceImpl/meta-src/META-INF/soa/client/config/MultiplyService/production/NegateService/ClientConfig.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ParseServiceConsumer.java" partName="ParseServiceConsumer.java" path="C:/eclipse_workspaces/calculator/ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java" title="ParseServiceConsumer.java" tooltip="ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1248" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NegateServiceImpl.java" partName="NegateServiceImpl.java" path="C:/eclipse_workspaces/calculator/NegateServiceImpl/src/calculations/dev/negateservice/NegateServiceImpl.java" title="NegateServiceImpl.java" tooltip="NegateServiceImpl/src/calculations/dev/negateservice/NegateServiceImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NegateServiceImpl/src/calculations/dev/negateservice/NegateServiceImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="389" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -110,19 +74,27 @@
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
 <expanded>
+<category IMemento.internal.id="Java Problems"/>
 <category IMemento.internal.id="Turmeric Problem"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.allSeverityField="389" org.eclipse.ui.ide.locationField="30" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94"/>
+<columnWidths org.eclipse.ui.ide.allSeverityField="790" org.eclipse.ui.ide.locationField="30" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+<DESCENDING_FIELDS IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
 </viewState>
 </view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+</viewState>
 </view>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
@@ -200,26 +172,27 @@
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
-<fastViews>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.29984662"/>
-</fastViews>
-</fastViewBar>
 <fastViewBar fastViewLocation="131072" id="bottomRight" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
 <fastViews>
-<view id="org.eclipse.ui.views.AllMarkersView" ratio="0.2992"/>
+<view id="org.eclipse.ui.views.AllMarkersView" ratio="0.784"/>
 <view id="org.eclipse.ui.views.PropertySheet" ratio="0.2992"/>
 <view id="org.eclipse.wst.server.ui.ServersView" ratio="0.3"/>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" ratio="0.3"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" ratio="0.3"/>
 <view id="org.eclipse.ui.console.ConsoleView" ratio="0.5424"/>
+<view id="org.eclipse.search.ui.views.SearchView" ratio="0.2992"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
+<fastViews>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.29984662"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder appearance="2" expanded="2">
+<folder appearance="2" expanded="0">
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
@@ -236,8 +209,8 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2206642" ratioLeft="299" ratioRight="1056" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.5659164" ratioLeft="352" ratioRight="270" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
+<info folder="true" part="bottomRight" ratio="0.63022506" ratioLeft="392" ratioRight="230" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
 <page content="org.eclipse.ui.views.AllMarkersView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
@@ -253,7 +226,7 @@
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
+<folder appearance="2" expanded="0">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -267,58 +240,25 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=ParseService/C:\/Users\/Joel\/.m2\/repository\/org\/ebayopensource\/turmeric\/runtime\/soa-client\/1.0.1.0-SNAPSHOT\/soa-client-1.0.1.0-SNAPSHOT.jar&lt;org.ebayopensource.turmeric.runtime.sif.impl.handlers(MessageContextHandler.class"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/trace/TraceStatePoint.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/handler/TraceStatePoint.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.maven.ide.eclipse.editor.MavenPomEditor" path="/Pipelines/pom.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" path="/Pipelines/build/classes/dev/log/handler/RequestLogHeaderHandler.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/MultiplyServiceImpl/meta-src/META-INF/soa/client/config/MultiplyService/production/SumService/ClientConfig.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/MultiplyService/ClientConfig.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/NegateService/ClientConfig.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/PowerService/ClientConfig.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/SumService/ClientConfig.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/PowerServiceImpl/meta-src/META-INF/soa/client/config/PowerService/production/MultiplyService/ClientConfig.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/MultiplyServiceImpl/meta-src/META-INF/soa/client/config/MultiplyService/production/NegateService/ClientConfig.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NegateServiceImpl/src/calculations/dev/negateservice/NegateServiceImpl.java"/>
 </editors>
 <item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="834" y="0"/>
+<position info="not_deleted" x="3074" y="0"/>
+</item>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="761" y="0"/>
 </item>
 <item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="1204" y="10"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="1196" y="7"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="1204" y="10"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="3061" y="1"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="534" y="0"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="616" y="0"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="906" y="0"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="590" y="4"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="906" y="0"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="844" y="0"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="901" y="0"/>
-</item>
-<item historyLabel="MessageContextHandler.class" index="2">
-<position info="not_deleted" x="4775" y="0"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="3061" y="1"/>
+<position info="not_deleted" x="3316" y="0"/>
 </item>
 <item historyLabel="RequestLogHeaderHandler.java" index="0">
 <position/>
@@ -326,100 +266,110 @@
 <item historyLabel="RequestLogHeaderHandler.java" index="0">
 <position/>
 </item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="291" y="10"/>
+<item historyLabel="RequestLogHeaderHandler.java" index="0">
+<position info="not_deleted" x="3134" y="0"/>
 </item>
-<item historyLabel="ParseServiceConsumer.java" index="1">
-<position info="not_deleted" x="902" y="0"/>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1020" y="0"/>
+</item>
+<item historyLabel="RequestLogHeaderHandler.java" index="0">
+<position info="not_deleted" x="2603" y="0"/>
+</item>
+<item historyLabel="ClientConfig.xml" index="3"/>
+<item historyLabel="ClientConfig.xml" index="2"/>
+<item historyLabel="ClientConfig.xml" index="3"/>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1020" y="0"/>
+</item>
+<item historyLabel="RequestLogHeaderHandler.java" index="0">
+<position info="not_deleted" x="2603" y="0"/>
 </item>
 <item historyLabel="RequestLogHeaderHandler.java" index="0">
 <position/>
 </item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="467" y="0"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="3232" y="12"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="331" y="10"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="3117" y="12"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="2894" y="0"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="2989" y="0"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="717" y="0"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="331" y="10"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="717" y="0"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="3006" y="0"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="537" y="0"/>
-</item>
+<item historyLabel="ClientConfig.xml" index="2"/>
 <item historyLabel="RequestLogHeaderHandler.java" index="0">
 <position/>
 </item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="149" y="15"/>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1020" y="0"/>
 </item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="2698" y="0"/>
+<item historyLabel="ClientConfig.xml" index="2"/>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1020" y="0"/>
 </item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ClientConfig.xml" index="3"/>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1020" y="0"/>
 </item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="2698" y="0"/>
+<item historyLabel="ClientConfig.xml" index="4"/>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1020" y="0"/>
 </item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ClientConfig.xml" index="5"/>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1020" y="0"/>
 </item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="3099" y="0"/>
-</item>
-<item historyLabel="Pipelines/pom.xml" index="5"/>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="2651" y="0"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.class" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="2651" y="0"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="2651" y="0"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="3627" y="0"/>
-</item>
-<item historyLabel="TraceStatePoint.java" index="3">
-<position info="not_deleted" x="845" y="0"/>
-</item>
-<item historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="3242" y="0"/>
+<item historyLabel="ClientConfig.xml" index="6"/>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1020" y="0"/>
 </item>
 <item historyLabel="ClientConfig.xml" index="7"/>
-<item active="true" historyLabel="RequestLogHeaderHandler.java" index="0">
-<position info="not_deleted" x="3242" y="0"/>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1020" y="0"/>
+</item>
+<item historyLabel="ClientConfig.xml" index="3"/>
+<item historyLabel="ClientConfig.xml" index="8"/>
+<item historyLabel="RequestLogHeaderHandler.java" index="0">
+<position info="not_deleted" x="2074" y="0"/>
+</item>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1930" y="0"/>
+</item>
+<item historyLabel="RequestLogHeaderHandler.java" index="0">
+<position info="not_deleted" x="2096" y="16"/>
+</item>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1930" y="0"/>
+</item>
+<item historyLabel="RequestLogHeaderHandler.java" index="0">
+<position info="not_deleted" x="2521" y="0"/>
+</item>
+<item historyLabel="ClientConfig.xml" index="3"/>
+<item historyLabel="ClientConfig.xml" index="8"/>
+<item historyLabel="ClientConfig.xml" index="3"/>
+<item historyLabel="RequestLogHeaderHandler.java" index="0">
+<position info="not_deleted" x="3309" y="0"/>
+</item>
+<item historyLabel="TraceStatePoint.java" index="1">
+<position info="not_deleted" x="1020" y="0"/>
+</item>
+<item historyLabel="RequestLogHeaderHandler.java" index="0">
+<position info="not_deleted" x="3129" y="0"/>
+</item>
+<item historyLabel="ParseServiceConsumer.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ParseServiceConsumer.java" index="9">
+<position info="not_deleted" x="1208" y="0"/>
+</item>
+<item historyLabel="ParseServiceConsumer.java" index="9">
+<position info="not_deleted" x="1116" y="0"/>
+</item>
+<item historyLabel="ParseServiceConsumer.java" index="9">
+<position info="not_deleted" x="1094" y="4"/>
+</item>
+<item historyLabel="ParseServiceConsumer.java" index="9">
+<position info="not_deleted" x="1079" y="10"/>
+</item>
+<item historyLabel="ParseServiceConsumer.java" index="9">
+<position info="not_deleted" x="1248" y="0"/>
+</item>
+<item historyLabel="NegateServiceImpl.java" index="10">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item active="true" historyLabel="ParseServiceConsumer.java" index="9">
+<position info="not_deleted" x="1248" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -446,50 +396,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="RequestLogHeaderHandler.class" tooltip="Pipelines/build/classes/dev/log/handler/RequestLogHeaderHandler.class">
-<persistable path="/Pipelines/build/classes/dev/log/handler/RequestLogHeaderHandler.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NegateServiceImpl.java" tooltip="NegateServiceImpl/src/calculations/dev/negateservice/NegateServiceImpl.java">
+<persistable path="/NegateServiceImpl/src/calculations/dev/negateservice/NegateServiceImpl.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.maven.ide.eclipse.editor.MavenPomEditor" name="pom.xml" tooltip="Pipelines/pom.xml">
-<persistable path="/Pipelines/pom.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ParseServiceConsumer.java" tooltip="ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java">
+<persistable path="/ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TraceStatePoint.java" tooltip="Pipelines/src/dev/log/trace/TraceStatePoint.java">
-<persistable path="/Pipelines/src/dev/log/trace/TraceStatePoint.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="MessageContextHandler.class" tooltip="org.ebayopensource.turmeric.runtime.sif.impl.handlers.MessageContextHandler">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=ParseService/C:\/Users\/Joel\/.m2\/repository\/org\/ebayopensource\/turmeric\/runtime\/soa-client\/1.0.1.0-SNAPSHOT\/soa-client-1.0.1.0-SNAPSHOT.jar&lt;org.ebayopensource.turmeric.runtime.sif.impl.handlers(MessageContextHandler.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="BaseHandler.class" tooltip="org.ebayopensource.turmeric.runtime.common.impl.handlers.BaseHandler">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Pipelines/C:\/Users\/Joel\/.m2\/repository\/org\/ebayopensource\/turmeric\/runtime\/soa-client\/1.0.1.0-SNAPSHOT\/soa-client-1.0.1.0-SNAPSHOT.jar&lt;org.ebayopensource.turmeric.runtime.common.impl.handlers(BaseHandler.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="BindingUtils.class" tooltip="org.ebayopensource.turmeric.runtime.binding.utils.BindingUtils">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=ParseService/C:\/Users\/Joel\/.m2\/repository\/org\/ebayopensource\/turmeric\/runtime\/binding-framework\/1.0.1.0-SNAPSHOT\/binding-framework-1.0.1.0-SNAPSHOT.jar&lt;org.ebayopensource.turmeric.runtime.binding.utils(BindingUtils.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.maven.ide.eclipse.editor.MavenPomEditor" name="pom.xml" tooltip="ParseServiceConsumer/pom.xml">
-<persistable path="/ParseServiceConsumer/pom.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" tooltip="MultiplyServiceImpl/meta-src/META-INF/soa/client/config/MultiplyService/production/NegateService/ClientConfig.xml">
+<persistable path="/MultiplyServiceImpl/meta-src/META-INF/soa/client/config/MultiplyService/production/NegateService/ClientConfig.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/MultiplyService/ClientConfig.xml">
 <persistable path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/MultiplyService/ClientConfig.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NegateServiceRequestDispatcher.java" tooltip="NegateServiceImpl/gen-src/service/calculations/dev/negateservice/gen/NegateServiceRequestDispatcher.java">
-<persistable path="/NegateServiceImpl/gen-src/service/calculations/dev/negateservice/gen/NegateServiceRequestDispatcher.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" tooltip="PowerServiceImpl/meta-src/META-INF/soa/client/config/PowerService/production/MultiplyService/ClientConfig.xml">
+<persistable path="/PowerServiceImpl/meta-src/META-INF/soa/client/config/PowerService/production/MultiplyService/ClientConfig.xml"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="NegateRequest.class" tooltip="calculations.dev.NegateRequest">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=NegateServiceImpl/C:\/Users\/Joel\/.m2\/repository\/org\/ebayopensource\/turmeric\/intf\/NegateService\/1.0.0\/NegateService-1.0.0.jar&lt;calculations.dev(NegateRequest.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/SumService/ClientConfig.xml">
+<persistable path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/SumService/ClientConfig.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PowerService.java" tooltip="PowerService/gen-src/client/calculations/dev/powerservice/PowerService.java">
-<persistable path="/PowerService/gen-src/client/calculations/dev/powerservice/PowerService.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/PowerService/ClientConfig.xml">
+<persistable path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/PowerService/ClientConfig.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AsyncPowerService.java" tooltip="PowerService/gen-src/client/calculations/dev/powerservice/AsyncPowerService.java">
-<persistable path="/PowerService/gen-src/client/calculations/dev/powerservice/AsyncPowerService.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/NegateService/ClientConfig.xml">
+<persistable path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/NegateService/ClientConfig.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SharedPowerServiceConsumer.java" tooltip="PowerService/gen-src/client/calculations/dev/powerservice/gen/SharedPowerServiceConsumer.java">
-<persistable path="/PowerService/gen-src/client/calculations/dev/powerservice/gen/SharedPowerServiceConsumer.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" tooltip="MultiplyServiceImpl/meta-src/META-INF/soa/client/config/MultiplyService/production/SumService/ClientConfig.xml">
+<persistable path="/MultiplyServiceImpl/meta-src/META-INF/soa/client/config/MultiplyService/production/SumService/ClientConfig.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" tooltip="ParseServiceConsumer/meta-src/META-INF/soa/client/config/ParseServiceConsumer/production/ParseService/ClientConfig.xml">
-<persistable path="/ParseServiceConsumer/meta-src/META-INF/soa/client/config/ParseServiceConsumer/production/ParseService/ClientConfig.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TraceStatePoint.java" tooltip="Pipelines/src/dev/log/trace/TraceStatePoint.java">
+<persistable path="/Pipelines/src/dev/log/trace/TraceStatePoint.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiplyServiceImpl.java" tooltip="MultiplyServiceImpl/src/calculations/dev/multiplyservice/MultiplyServiceImpl.java">
-<persistable path="/MultiplyServiceImpl/src/calculations/dev/multiplyservice/MultiplyServiceImpl.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ServiceConfig.xml" tooltip="SumServiceImpl/meta-src/META-INF/soa/services/config/SumService/ServiceConfig.xml">
+<persistable path="/SumServiceImpl/meta-src/META-INF/soa/services/config/SumService/ServiceConfig.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ServiceConfig.xml" tooltip="PowerServiceImpl/meta-src/META-INF/soa/services/config/PowerService/ServiceConfig.xml">
+<persistable path="/PowerServiceImpl/meta-src/META-INF/soa/services/config/PowerService/ServiceConfig.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ServiceConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/services/config/ParseService/ServiceConfig.xml">
+<persistable path="/ParseServiceImpl/meta-src/META-INF/soa/services/config/ParseService/ServiceConfig.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ServiceConfig.xml" tooltip="NegateServiceImpl/meta-src/META-INF/soa/services/config/NegateService/ServiceConfig.xml">
+<persistable path="/NegateServiceImpl/meta-src/META-INF/soa/services/config/NegateService/ServiceConfig.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ServiceConfig.xml" tooltip="MultiplyServiceImpl/meta-src/META-INF/soa/services/config/MultiplyService/ServiceConfig.xml">
+<persistable path="/MultiplyServiceImpl/meta-src/META-INF/soa/services/config/MultiplyService/ServiceConfig.xml"/>
 </file>
 </mruList>
 </workbench>

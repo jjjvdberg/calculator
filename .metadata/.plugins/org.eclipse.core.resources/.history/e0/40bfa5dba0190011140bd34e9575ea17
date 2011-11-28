@@ -1,0 +1,12 @@
+package dev.log.trace;
+
+public class MySQLConnector {
+
+	private static String DB_USERNAME = "root";
+	private static String DB_PASSWORD = "root";
+	private static String DB_URL = "jdbc:mysql://localhost/";
+	
+	public MySQLConnector() {
+		// TODO Auto-generated constructor stub
+	}
+}

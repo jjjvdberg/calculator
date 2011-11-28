@@ -11,7 +11,7 @@ public class NegateServiceImpl
 
     public NegateResponse negate(NegateRequest param0) {
         NegateResponse response = new NegateResponse();
-        response.setY(-param0.getX());
+        response.setY(param0.getX());
         return response;
     }
 

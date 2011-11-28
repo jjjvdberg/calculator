@@ -1,0 +1,12 @@
+package dev.log.trace;
+
+public class SpectrumBasedFaultLocalization {
+
+	public static float sJ = 0;
+	public static float sT = 0;
+	public static float sO = 0;
+	
+	public static void createMetrics() {
+		
+	}
+}

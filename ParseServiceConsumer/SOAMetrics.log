@@ -1,0 +1,16 @@
+11/28/11 12:39:39,ParseService,parse,SoaFwk.Op.Time.Pipeline_Request,Missing,Unknown,Unknown,1,                    95490.0000
+11/28/11 12:39:39,ParseService,parse,SoaFwk.Op.Time.Serialization,Missing,Unknown,Unknown,1,                968942431.0000
+11/28/11 12:39:39,ParseService,N/A,SoaFwk.Time.Pipeline_Request,Missing,Unknown,Unknown,1,                    95490.0000
+11/28/11 12:39:39,ParseService,N/A,SoaFwk.Time.Serialization,Missing,Unknown,Unknown,1,                968942431.0000
+11/28/11 12:40:39,ParseService,parse,SoaFwk.Op.Time.Serialization,Missing,Unknown,Unknown,0,                        0.0000
+11/28/11 12:40:39,PowerService,N/A,SoaFwk.Time.Serialization,ParseServiceClient,Unknown,Unknown,1,                190096757.0000
+11/28/11 12:40:39,PowerService,N/A,SoaFwk.Time.Pipeline_Request,ParseServiceClient,Unknown,Unknown,1,                  2635356.0000
+11/28/11 12:40:39,PowerService,power,SoaFwk.Op.Time.Serialization,ParseServiceClient,Unknown,Unknown,1,                190096757.0000
+11/28/11 12:40:39,ParseService,parse,SoaFwk.Op.Time.Pipeline_Request,Missing,Unknown,Unknown,0,                        0.0000
+11/28/11 12:40:39,PowerService,power,SoaFwk.Op.Time.Pipeline_Request,ParseServiceClient,Unknown,Unknown,1,                  2635356.0000
+11/28/11 12:40:39,ParseService,N/A,SoaFwk.Time.Pipeline_Request,Missing,Unknown,Unknown,0,                        0.0000
+11/28/11 12:40:39,ParseService,N/A,SoaFwk.Time.Serialization,Missing,Unknown,Unknown,0,                        0.0000
+11/28/11 12:40:41,ParseService,parse,SoaFwk.Op.Time.Pipeline_Request,ParseServiceClient,Unknown,Unknown,1,              78176387198.0000
+11/28/11 12:40:41,ParseService,parse,SoaFwk.Op.Time.Deserialization,ParseServiceClient,Unknown,Unknown,1,                328656388.0000
+11/28/11 12:40:41,ParseService,N/A,SoaFwk.Time.Pipeline_Request,ParseServiceClient,Unknown,Unknown,1,              78176387198.0000
+11/28/11 12:40:41,ParseService,N/A,SoaFwk.Time.Deserialization,ParseServiceClient,Unknown,Unknown,1,                328656388.0000

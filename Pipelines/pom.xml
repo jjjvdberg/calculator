@@ -76,5 +76,15 @@
 			<type>pom</type>
 			<scope>compile</scope>
 		</dependency>
+		<dependency>
+		    <groupId>commons-dbutils</groupId>
+		    <artifactId>commons-dbutils</artifactId>
+		    <version>1.4</version>
+		</dependency>
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>5.1.18</version>
+		</dependency>
 	</dependencies>
 </project>
