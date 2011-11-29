@@ -1,7 +1,0 @@
-package calculations.dev.multiplyservice;
-
-import calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer;
-
-public class MultiplyServiceConsumer extends SharedMultiplyServiceConsumer {
-
-}

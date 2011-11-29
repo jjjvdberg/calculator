@@ -1,0 +1,28 @@
+package dev.log.trace;
+
+public class SpectrumBasedMultipleFaultLocalization {
+
+	/**
+	 * http://photon.isy.liu.se/dx09/papers/dx09_submission_19.pdf
+	 * @input matrix (A,e)
+	 */
+	public void staccato(){
+		
+	}
+	
+	/**
+	 * @input matrix (A,e)
+	 * @input dk
+	 */
+	public void generatePr(){
+		
+	}
+	
+	/**
+	 * @input expr
+	 * @input (for all j element of dk) gj
+	 */
+	public void evaluate(){
+		
+	}
+}

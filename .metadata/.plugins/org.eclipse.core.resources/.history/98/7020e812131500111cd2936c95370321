@@ -1,7 +1,0 @@
-package calculations.dev.negateservice;
-
-import calculations.dev.negateservice.gen.SharedNegateServiceConsumer;
-
-public class NegateServiceConsumer extends SharedNegateServiceConsumer {
-
-}

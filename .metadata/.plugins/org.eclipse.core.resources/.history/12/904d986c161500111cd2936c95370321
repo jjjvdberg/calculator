@@ -1,7 +1,0 @@
-package calculations.dev.sumservice;
-
-import calculations.dev.sumservice.gen.SharedSumServiceConsumer;
-
-public class SumServiceConsumer extends SharedSumServiceConsumer {
-
-}

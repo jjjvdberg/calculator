@@ -207,3 +207,27 @@ started,bundle,org.eclipse.jst.ws.jaxrs.core,1.0.201.v201011231540,"org.eclipse.
 started,bundle,org.eclipse.jdt.launching,3.5.200.v20110105_r362,"org.eclipse.jdt.launching",1322469366152
 started,bundle,org.eclipse.jsch.core,1.1.200.I20100505-1245,"org.eclipse.jsch.core",1322469366758
 started,bundle,org.eclipse.team.cvs.core,3.3.301.R36x_v20110119-0815,"org.eclipse.team.cvs.core",1322469366759
+started,bundle,org.eclipse.team.ui,3.5.102.R36x_v20110203-1036,"org.eclipse.team.ui",1322469366866
+started,bundle,org.eclipse.team.cvs.ui,3.3.302.R36x_v20110203-1036,"org.eclipse.team.cvs.ui",1322469367155
+started,bundle,org.ebayopensource.turmeric.eclipse.utils,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.utils",1322469368186
+started,bundle,org.ebayopensource.turmeric.eclipse.repositorysystem.imp,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.repositorysystem.imp",1322469368649
+started,bundle,org.ebayopensource.turmeric.eclipse.logging,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.logging",1322469368703
+started,bundle,org.ebayopensource.turmeric.eclipse.buildsystem,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.buildsystem",1322469368769
+started,bundle,org.ebayopensource.turmeric.eclipse.build,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.build",1322469368782
+started,bundle,org.ebayopensource.turmeric.eclipse.repositorysystem,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.repositorysystem",1322469368823
+started,bundle,org.ebayopensource.turmeric.eclipse.codegen,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.codegen",1322469369074
+started,bundle,org.ebayopensource.turmeric.eclipse.validator,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.validator",1322469369222
+started,bundle,org.ebayopensource.turmeric.eclipse.soatools,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.soatools",1322469369380
+started,bundle,org.ebayopensource.turmeric.eclipse.resources,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.resources",1322469369861
+started,bundle,org.eclipse.jdt.apt.core,3.3.402.R36_v20110120-1000,"org.eclipse.jdt.apt.core",1322469370520
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.301.R36_v20100727-0110,"org.eclipse.jdt.apt.pluggable.core",1322469370573
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1322469370725
+started,bundle,org.eclipse.core.variables,3.2.400.v20100505,"org.eclipse.core.variables",1322469372639
+error,log,,,"Unable to update index for codehaus|http://snapshots.repository.codehaus.org/",1322469378039
+opened,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322469378442
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1322469378481
+started,bundle,org.ebayopensource.turmeric.eclipse.maven.core,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.maven.core",1322469379322
+started,bundle,org.ebayopensource.turmeric.eclipse.maven.sconfig,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.maven.sconfig",1322469379400
+started,bundle,org.ebayopensource.turmeric.eclipse.exception,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.exception",1322469382724
+started,bundle,org.ebayopensource.turmeric.eclipse.mavenapi,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.mavenapi",1322469383519
+started,bundle,org.ebayopensource.turmeric.eclipse.config,1.0.0.201103160943,"org.ebayopensource.turmeric.eclipse.config",1322469387246

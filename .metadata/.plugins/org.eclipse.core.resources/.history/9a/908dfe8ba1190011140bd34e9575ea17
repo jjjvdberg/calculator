@@ -1,8 +1,0 @@
-package dev.log.trace;
-
-import junit.framework.Test;
-
-public class TestMySQLConnector implements Test{
-	
-	
-}
