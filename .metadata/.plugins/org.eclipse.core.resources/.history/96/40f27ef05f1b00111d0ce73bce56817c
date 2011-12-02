@@ -1,0 +1,32 @@
+package dev.log.trace.test;
+
+import java.util.ArrayList;
+
+import dev.log.trace.ActivityMatrix;
+
+public class TestActivityMatrix {
+
+	public static void main(String[] args) {
+		ArrayList<Object> vector1 = new ArrayList<Object>();
+		ArrayList<Object> vector2 = new ArrayList<Object>();
+		ArrayList<Object> vector3 = new ArrayList<Object>();
+		ArrayList<Object> error = new ArrayList<Object>();
+		
+		vector1.add("c1");vector1.add(1);vector1.add(0);vector1.add(1);
+		vector2.add("c2");vector2.add(0);vector2.add(1);vector2.add(0);
+		vector3.add("c3");vector3.add(1);vector3.add(1);vector3.add(1);
+
+		error.add("ei");error.add(1);error.add(1);error.add(0);
+
+		ArrayList<ArrayList<Object>> vectors = new ArrayList<ArrayList<Object>>();
+		
+		vectors.add(vector1);
+		vectors.add(vector2);
+		vectors.add(vector3);
+		
+		ActivityMatrix matrix = new ActivityMatrix(vectors,error);
+		
+		System.out.println(matrix);
+		
+	}
+}

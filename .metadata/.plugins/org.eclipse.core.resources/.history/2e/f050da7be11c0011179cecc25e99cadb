@@ -1,0 +1,34 @@
+package dev.log.health;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class Function {
+	
+	ArrayList<Term> terms;
+	
+	public Function(ArrayList<Term> terms) {
+		this.terms = terms;
+	}
+	
+	public float calculate(HashMap<String,Float> values) {
+		
+		float result = 1.0f;
+		
+		for(Term term : terms) {
+			result *= term.calculate(values);
+		}
+		return result;
+	}
+	
+	public float diff(HashMap<String,Float> values, String component) {
+		
+		float margin = 0.01f;
+		float before = calculate(values);
+		values.put(component, values.get(component) + margin) ;
+		float after = function(values);
+		
+		return (after-before)/margin;
+	}
+	
+}

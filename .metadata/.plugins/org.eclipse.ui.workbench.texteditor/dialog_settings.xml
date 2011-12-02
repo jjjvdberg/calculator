@@ -13,15 +13,26 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="double" key="selection"/>
+		<item value="strip" key="selection"/>
 		<list key="findhistory">
-			<item value="double"/>
-			<item value="float"/>
-			<item value="logto"/>
+			<item value="strip"/>
+			<item value="copy"/>
+			<item value="remove"/>
+			<item value="removevector"/>
+			<item value="Column"/>
+			<item value="matrix.getVectors()"/>
+			<item value="vector3"/>
+			<item value="vector1"/>
 		</list>
 		<list key="replacehistory">
-			<item value="Double"/>
-			<item value="double"/>
+			<item value="Vector"/>
+			<item value="vectors"/>
+			<item value="error"/>
+			<item value="vector3"/>
+			<item value="vector2"/>
+			<item value="c6"/>
+			<item value="c5"/>
+			<item value="c4"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">

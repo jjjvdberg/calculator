@@ -1,0 +1,8 @@
+package dev.log.trace.test;
+
+import org.junit.Before;
+
+public class TestComponentVector {
+
+	@Before
+}

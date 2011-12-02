@@ -1,0 +1,25 @@
+package dev.log.activity;
+
+import java.util.ArrayList;
+
+abstract class Vector<K,V> {
+	
+	private K header;
+	private ArrayList<V> values;
+
+	public K getHeader() {
+		return this.header;
+	}
+	
+	public ArrayList<V> getValues() {
+		return this.values;
+	}
+	
+	public void insertValue(V value) {
+		this.values.add(value);
+	}
+
+	public removeValue(V value) {
+		this.values.remove(value);
+	}
+}

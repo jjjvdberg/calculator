@@ -1,0 +1,15 @@
+package dev.log.trace.test;
+
+import java.util.ArrayList;
+
+public class TestFunction {
+
+	public static void main(String[] args) {
+		ArrayList<String> h1terms = new ArrayList<String>();
+		h1terms.add("h1");
+		h1terms.add("h2");
+		Term h1 = new Term(h1terms,true);
+		Function func = new Function();
+		
+	}
+}

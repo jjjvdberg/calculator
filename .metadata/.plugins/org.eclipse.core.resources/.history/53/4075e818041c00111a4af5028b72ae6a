@@ -1,0 +1,30 @@
+package dev.log.trace.test;
+
+import junit.framework.TestCase;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import dev.log.activity.ComponentVector;
+
+public class TestComponentVector extends TestCase {
+
+	ComponentVector testVector;
+	
+	@Before
+	public void setUp() {
+		testVector = new ComponentVector();
+		testVector.
+	}
+	
+	@Test
+	public void copy() {
+		
+	}
+	
+	@Test
+	public void equals() {
+		
+	}
+
+}

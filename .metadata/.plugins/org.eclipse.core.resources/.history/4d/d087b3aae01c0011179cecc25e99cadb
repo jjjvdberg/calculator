@@ -1,0 +1,20 @@
+package dev.log.health;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class Term {
+
+	private boolean error;
+	ArrayList<String> components;
+
+	public double calculate(HashMap<String, Double> values) {
+		double result = 1.0
+		
+		if(error)
+			result = 1 - result;
+		
+		return result;
+	}
+
+}

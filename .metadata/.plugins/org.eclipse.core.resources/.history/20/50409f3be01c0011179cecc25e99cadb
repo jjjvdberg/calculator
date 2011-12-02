@@ -1,0 +1,24 @@
+package dev.log.health;
+
+import java.util.ArrayList;
+
+public class Function {
+	
+	ArrayList<Term> terms;
+	
+	public Function(ArrayList<Term> terms) {
+		this.terms = terms;
+	}
+	
+	public double calculate(HashMap<String,Double> values) {
+		
+		double result = 1.0;
+		
+		for(Term term : terms) {
+			if(term.error())
+				result *= (1- term.calculate(values));
+			else
+				result *= term.calculate(values);
+		}
+	}
+}

@@ -1,0 +1,13 @@
+package dev.log.trace.test;
+
+import junit.framework.Test;
+
+import org.junit.Before;
+
+public class TestComponentVector implements Test{
+
+	@Before
+	public void init() {
+		
+	}
+}

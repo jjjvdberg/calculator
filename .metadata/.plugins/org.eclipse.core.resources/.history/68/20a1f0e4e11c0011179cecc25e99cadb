@@ -1,0 +1,9 @@
+package dev.log.trace.test;
+
+public class TestFunction {
+
+	public static void main(String[] args) {
+		Function func = new Function();
+		
+	}
+}

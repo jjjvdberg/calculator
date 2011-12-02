@@ -1,0 +1,80 @@
+package dev.log.activity;
+
+import java.util.ArrayList;
+
+abstract class Vector<K,V> {
+	
+	private K header;
+	private ArrayList<V> values;
+
+	public Vector() {
+		
+	}
+	
+	public Vector(K header, ArrayList<V> values) {
+		this.header = header;
+		this.values = values;
+	}
+	
+	public K getHeader() {
+		return this.header;
+	}
+	
+	/**
+	 * Set the header for this vector
+	 * @param header The header to be set
+	 */
+	public void setHeader(K header) {
+		this.header = header;
+	}
+	
+	/**
+	 * Gets the set of values of this vector.
+	 * @return The list of values
+	 */
+	public ArrayList<V> getValues() {
+		return this.values;
+	}
+	
+	/**
+	 * @see ArrayList#add(Object)
+	 */
+	public boolean addValue(V value) {
+		return this.values.add(value);
+	}
+	
+	/**
+	 * @see ArrayList#add(int, Object)
+	 */
+	public void addValueAt(int index, V value) {
+		this.values.add(index,value);
+	}
+	
+	/**
+	 * @see ArrayList#remove(Object)
+	 */
+	public boolean removeValue(V value) {
+		return this.values.remove(value);
+	}
+	
+	/**
+	 * @see ArrayList#remove(int)
+	 */
+	public V removeValueAt(int index) {
+		return this.values.remove(index);
+	}
+	
+	/**
+	 * @see ArrayList#get(int)
+	 */
+	public V getValue(int index) {
+		return this.values.get(index);
+	}
+	
+	/**
+	 * @see ArrayList#set(int, Object)
+	 */
+	public V setValue(int index, V value) {
+		return this.values.set(index, value);
+	}
+}

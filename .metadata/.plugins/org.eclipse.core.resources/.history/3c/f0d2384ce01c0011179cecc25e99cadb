@@ -1,0 +1,18 @@
+package dev.log.health;
+
+import java.util.HashMap;
+
+public class Term {
+
+	boolean error;
+	
+	public boolean error() {
+		return this.error;
+	}
+
+	public int calculate(HashMap<String, Double> values) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

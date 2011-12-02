@@ -1,0 +1,44 @@
+package dev.log.trace.test;
+
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+import org.junit.Test;
+
+import dev.log.activity.ComponentVector;
+
+public class TestComponentVector extends TestCase {
+
+	ComponentVector testVector1;
+	ComponentVector testVector2;
+	ComponentVector copyVector;
+	
+	public void setUp() {
+		testVector1 = new ComponentVector();
+		testVector1.setHeader("component1");
+		testVector1.addValue(1);
+		testVector1.addValue(0);
+		testVector1.addValue(1);
+		testVector1.addValue(1);
+		
+		testVector2 = new ComponentVector();
+		testVector2.setHeader("component2");
+		testVector2.addValue(1);
+		testVector2.addValue(1);
+		testVector2.addValue(0);
+		testVector2.addValue(0);
+	}
+	
+	@Test
+	public void testCopy() {
+		copyVector = testVector1.copy();
+		assertNotSame(copyVector, testVector1);
+	}
+	
+	@Test
+	public void testEquals() {
+		copyVector = testVector1.copy();
+		System.out.println(copyVector);
+		assertTrue(copyVector.equals(testVector1));
+	}
+}

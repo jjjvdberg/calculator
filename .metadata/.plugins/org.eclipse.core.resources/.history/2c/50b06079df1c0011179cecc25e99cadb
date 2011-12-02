@@ -1,0 +1,10 @@
+package dev.log.health;
+
+public class Function {
+	
+	ArrayList<Term> terms;
+	
+	public Function(ArrayList<Term> terms) {
+		this.terms = terms;
+	}
+}
