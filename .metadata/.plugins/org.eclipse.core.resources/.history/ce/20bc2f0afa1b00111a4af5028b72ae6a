@@ -1,5 +1,0 @@
-package dev.log.activity;
-
-public class ErrorVector extends Vector {
-
-}

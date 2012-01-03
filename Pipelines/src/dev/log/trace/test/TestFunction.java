@@ -11,10 +11,11 @@ public class TestFunction {
 	public static void main(String[] args) {
 		ArrayList<String> e1components = new ArrayList<String>();
 		e1components.add("h1");
+		e1components.add("h2");
 		Term h1 = new Term(e1components,true);
 	
 		ArrayList<String> e2components = new ArrayList<String>();
-		e2components.add("h3");
+		e2components.add("h2");
 		Term h2 = new Term(e2components,true);
 
 		ArrayList<String> e3components = new ArrayList<String>();
@@ -23,7 +24,6 @@ public class TestFunction {
 
 		ArrayList<String> e4components = new ArrayList<String>();
 		e4components.add("h1");
-		e4components.add("h3");
 		Term h4 = new Term(e4components,false);
 		
 		ArrayList<Term> terms = new ArrayList<Term>();
@@ -32,7 +32,7 @@ public class TestFunction {
 		System.out.println(func.maximize());
 		HashMap<String,Float> values = new HashMap<String,Float>();
 		values.put("h1",0.41f);
-		values.put("h3",0.50f);
+		values.put("h2",0.50f);
 		System.out.println(func.calculate(values));
 		
 	}

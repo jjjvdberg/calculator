@@ -3,28 +3,29 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="257" key="DIALOG_WIDTH"/>
 		<item value="120" key="DIALOG_Y_ORIGIN"/>
-		<item value="826" key="DIALOG_X_ORIGIN"/>
 		<item value="378" key="DIALOG_HEIGHT"/>
+		<item value="826" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="true" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="strip" key="selection"/>
+		<item value="float" key="selection"/>
 		<list key="findhistory">
+			<item value="double"/>
+			<item value="float"/>
 			<item value="strip"/>
 			<item value="copy"/>
 			<item value="remove"/>
 			<item value="removevector"/>
 			<item value="Column"/>
 			<item value="matrix.getVectors()"/>
-			<item value="vector3"/>
-			<item value="vector1"/>
 		</list>
 		<list key="replacehistory">
+			<item value="float"/>
 			<item value="Vector"/>
 			<item value="vectors"/>
 			<item value="error"/>
@@ -32,7 +33,6 @@
 			<item value="vector2"/>
 			<item value="c6"/>
 			<item value="c5"/>
-			<item value="c4"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">

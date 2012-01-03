@@ -39,20 +39,22 @@ public class Function {
 
 	public HashMap<String,Float> maximize() {
 		
+		float eps = 0.01f; // step size
+		float precision = 0.000001f; // Tweak tweak
+		float min = eps;
+		int i = 0;
+		
 		HashMap<String,Float> oldC = new HashMap<String,Float>();
 		HashMap<String,Float> newC = new HashMap<String,Float>();
 		for(String component : components) {
 			oldC.put(component, 0.0f);
-			newC.put(component, 0.1f); // algorithm starts at x = 0.1
+			newC.put(component, min); // algorithm starts at x = 0.1
 		}
 		
-		float eps = 0.01f; // step size
-		float precision = 0.000001f; // Tweak tweak
-		int i = 0;
 		while(!hitPrecision(newC,oldC,precision)) {
 			for(String component : components) {
 				oldC.put(component, newC.get(component));
-				newC.put(component, Math.max(0.0f,oldC.get(component) + eps * diff(newC,component)));
+				newC.put(component, Math.max(min,oldC.get(component) + eps * diff(newC,component)));
 			}
 			i++;
 		}

@@ -55,6 +55,9 @@
 <fullyQualifiedTypeName name="dev.log.activity.Vector"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="dev.log.activity.ComponentVector"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.jaxen.function.ext.EvaluateFunction"/>
+<fullyQualifiedTypeName name="org.apache.commons.math.analysis.polynomials.PolynomialFunction"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="dev.log.health.Function"/>
+<fullyQualifiedTypeName name="dev.log.health.Term"/>
 </qualifiedTypeNameHistroy>

@@ -6,9 +6,15 @@ import java.util.TreeMap;
 
 public class Matrix {
 
+	/**
+	 * The list of components.
+	 */
 	private ArrayList<ComponentVector> components = new ArrayList<ComponentVector>();
 	private ErrorVector error = new ErrorVector();
 	
+	/**
+	 * Private empty matrix
+	 */
 	private Matrix() {
 		
 	}
