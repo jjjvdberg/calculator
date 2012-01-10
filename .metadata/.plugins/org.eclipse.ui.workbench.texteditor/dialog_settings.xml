@@ -2,29 +2,30 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="257" key="DIALOG_WIDTH"/>
-		<item value="120" key="DIALOG_Y_ORIGIN"/>
+		<item value="220" key="DIALOG_Y_ORIGIN"/>
 		<item value="378" key="DIALOG_HEIGHT"/>
-		<item value="826" key="DIALOG_X_ORIGIN"/>
+		<item value="1018" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
 		<item value="false" key="isRegEx"/>
-		<item value="true" key="casesensitive"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="float" key="selection"/>
+		<item value="" key="selection"/>
 		<list key="findhistory">
-			<item value="double"/>
-			<item value="float"/>
-			<item value="strip"/>
-			<item value="copy"/>
-			<item value="remove"/>
-			<item value="removevector"/>
-			<item value="Column"/>
-			<item value="matrix.getVectors()"/>
+			<item value="[c5], [c4]"/>
+			<item value="[c4]"/>
+			<item value="[c7, c6, c5]"/>
+			<item value="we added to d [[c7, c7, c5, c3], [c7, c7, c6, c5], [c4]] and now r is [c6, c5, c3, c2, c1]"/>
+			<item value="component we want to add: c7"/>
+			<item value="while d&apos; is:              [[c5, c3], [c6, c5], [c7, c5, c3], [c7, c6, c5]]"/>
+			<item value="reading"/>
+			<item value="subsume"/>
 		</list>
 		<list key="replacehistory">
+			<item value="component"/>
 			<item value="float"/>
 			<item value="Vector"/>
 			<item value="vectors"/>
@@ -32,7 +33,6 @@
 			<item value="vector3"/>
 			<item value="vector2"/>
 			<item value="c6"/>
-			<item value="c5"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">

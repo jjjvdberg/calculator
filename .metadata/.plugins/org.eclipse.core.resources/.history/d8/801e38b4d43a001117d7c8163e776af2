@@ -1,0 +1,10 @@
+package dev.log.barinel.test;
+
+import dev.log.barinel.Barinel;
+
+public class TestBarinel {
+
+	public static void main(String[] args) {
+		Barinel.calculate(ReadFile.readFile("matrix_even_smaller.txt"));
+	}
+}

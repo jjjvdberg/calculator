@@ -1,0 +1,110 @@
+
+package calculations.dev.parseservice;
+
+import org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException;
+import org.ebayopensource.turmeric.runtime.common.impl.internal.pipeline.MessageContextAccessorImpl;
+
+import calculations.dev.MultiplyRequest;
+import calculations.dev.NegateRequest;
+import calculations.dev.ParseRequest;
+import calculations.dev.ParseResponse;
+import calculations.dev.PowerRequest;
+import calculations.dev.SumRequest;
+import calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer;
+import calculations.dev.negateservice.gen.SharedNegateServiceConsumer;
+import calculations.dev.powerservice.gen.SharedPowerServiceConsumer;
+import calculations.dev.sumservice.gen.SharedSumServiceConsumer;
+import dev.log.barinel.translate.Execution;
+import dev.log.handler.RequestLogHeaderHandler;
+
+public class ParseServiceImpl
+    implements ParseService
+{
+
+
+    public ParseResponse parse(ParseRequest param0) {
+    	
+    	ParseResponse response = new ParseResponse();
+		boolean error = false;
+    	
+		try {
+
+			SharedPowerServiceConsumer powerConsumer = new SharedPowerServiceConsumer("ParseService");
+			SharedMultiplyServiceConsumer multiplyConsumer = new SharedMultiplyServiceConsumer("ParseService");
+			SharedSumServiceConsumer sumConsumer = new SharedSumServiceConsumer("ParseService");
+			SharedNegateServiceConsumer negateConsumer = new SharedNegateServiceConsumer("ParseService");
+			
+	    	String calculation = param0.getInput();
+			int x, y;
+			
+			if(calculation.contains("+")) {
+				String[] splitstring = calculation.split("[+]");
+				x = Integer.parseInt(splitstring[0]);
+				y = Integer.parseInt(splitstring[1]);
+				SumRequest request = new SumRequest();
+				request.setX(x);
+				request.setY(y);
+				response.setOutput(sumConsumer.sum(request).getZ());
+			} else if (calculation.contains("*")) {
+				String[] splitstring = calculation.split("[*]");
+				x = Integer.parseInt(splitstring[0]);
+				y = Integer.parseInt(splitstring[1]);
+				MultiplyRequest request = new MultiplyRequest();
+				request.setX(x);
+				request.setY(y);
+				response.setOutput(multiplyConsumer.multiply(request).getY());	
+			} else if (calculation.contains("^")) {
+				String[] splitstring = calculation.split("[\\^]");
+				x = Integer.parseInt(splitstring[0]);
+				y = Integer.parseInt(splitstring[1]);
+				PowerRequest request = new PowerRequest();
+				request.setX(x);
+				request.setY(y);
+				response.setOutput(powerConsumer.power(request).getZ());				
+			} else if (calculation.contains("-")) {
+				String[] splitstring = calculation.split("[\\-]");
+				x = Integer.parseInt(splitstring[1]);
+				NegateRequest request = new NegateRequest();
+				request.setX(x);
+				response.setOutput(negateConsumer.negate(request).getY());
+			} else {
+				x = Integer.parseInt(calculation);
+				response.setOutput(x);
+			}
+			
+			if(response.getOutput() == 0)
+				throw new Exception("Calculation was 0");
+			
+		} catch (Exception e) { 
+			System.out.println("MESSAGE "+MessageContextAccessorImpl.getContext());
+			String process_id = "";
+			try {
+				process_id = MessageContextAccessorImpl.getContext().getRequestMessage().getTransportHeader(RequestLogHeaderHandler.PROCESS_ID);
+			} catch (ServiceException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			Execution.addToMatrix(process_id, 1);
+			
+			System.out.println(Execution.getMatrix().getHittingSets());
+			error = true;
+		} 
+
+		if(!error) {
+			System.out.println("MESSAGE "+MessageContextAccessorImpl.getContext());
+			String process_id = "";
+			try {
+				process_id = MessageContextAccessorImpl.getContext().getRequestMessage().getTransportHeader(RequestLogHeaderHandler.PROCESS_ID);
+			} catch (ServiceException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			Execution.addToMatrix(process_id, 0);
+			
+			System.out.println(Execution.getMatrix().getHittingSets());
+		}
+			
+    	return response;
+    }
+
+}

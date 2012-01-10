@@ -1,0 +1,12 @@
+package dev.log.barinel.test;
+
+import java.util.ArrayList;
+
+import dev.log.barinel.Barinel;
+
+public class TestBarinel {
+
+	public static void main(String[] args) {
+		ArrayList<HittingSet> set = Barinel.calculate(ReadFile.readFile("matrix_even_smaller.txt"));
+	}
+}

@@ -1,0 +1,10 @@
+package dev.log.trace.test;
+
+public class IncMHSReadFileThread implements Runnable {
+
+	@Override
+	public void run() {
+		
+	}
+
+}

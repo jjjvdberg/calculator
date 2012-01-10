@@ -1,0 +1,23 @@
+package dev.log.handler;
+
+import org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException;
+import org.ebayopensource.turmeric.runtime.common.impl.handlers.BaseHandler;
+import org.ebayopensource.turmeric.runtime.common.pipeline.InboundMessage;
+import org.ebayopensource.turmeric.runtime.common.pipeline.MessageContext;
+
+public class ResponseLogHeaderHandler extends BaseHandler {
+
+	@Override
+	public void invoke(MessageContext ctx) throws ServiceException {
+		// TODO Auto-generated method stub
+/* Handle incoming responses */
+		if(requestMsg instanceof InboundMessage) {
+			
+		} 
+		/* Handle outgoing responses */
+		else { 
+			
+		}
+	}
+
+}

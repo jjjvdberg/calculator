@@ -25,6 +25,11 @@
 					<class-name>dev.log.handler.RequestLogHeaderHandler</class-name>
 				</handler>
 			</request-handlers>
+			<response-handlers>
+				<handler name="ResponseLogHeaderHandler">
+					<class-name>dev.log.handler.ResponseLogHeaderHandler</class-name>
+				</handler>
+			</response-handlers>
 		</pipeline-config>
 	</service-instance-config>
 </service-config>

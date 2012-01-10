@@ -4,8 +4,8 @@ import junit.framework.TestCase;
 
 import org.junit.Test;
 
-import dev.log.activity.ComponentVector;
-import dev.log.activity.ErrorVector;
+import dev.log.barinel.activity.ComponentVector;
+import dev.log.barinel.activity.ErrorVector;
 
 public class TestComponentVector extends TestCase {
 

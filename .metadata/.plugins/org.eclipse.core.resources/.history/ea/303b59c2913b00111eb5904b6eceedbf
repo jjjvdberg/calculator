@@ -1,0 +1,29 @@
+package dev.log.barinel.translate;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import dev.log.barinel.activity.Matrix;
+import dev.log.trace.MySQLConnector;
+
+public class Execution {
+
+	private static final String DATABASE_NAME = "service_logging";
+	private static final String TABLE_NAME = "trace_point";
+	
+	private static MySQLConnector connector = new MySQLConnector(DATABASE_NAME);;
+	
+	private static Matrix a = new Matrix();
+	
+	public static void addToMatrix(String process) {
+	
+		List list = connector.select(String.format("SELECT * FROM %s WHERE process_id = %s",TABLE_NAME,process));
+		ArrayList<String> components = new ArrayList<String>();
+		while(list.listIterator().hasNext()) {
+			Map result = (Map)list.listIterator().next();
+			components.add((String) result.get("service_id"));
+		}
+		a.addExecution(components, 1);
+	}
+}

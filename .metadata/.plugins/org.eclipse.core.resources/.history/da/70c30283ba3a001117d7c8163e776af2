@@ -1,0 +1,90 @@
+package dev.log.health;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+/**
+ * To determine the maximum health probability, we estimate using the maximum
+ * likelyhood estimation for Pr(e|dx). This MLE consists of terms that consist
+ * of the hit components for each execution (observation). This Term class defines
+ * one such term being:
+ * prod(hj) if e = 0
+ * 1-prod(hj) if e = 1
+ * 
+ * @author Joel van den Berg
+ */
+public class Term {
+
+	/**
+	 * Specifies if an error occurred for this term (e=1).
+	 */
+	private boolean error;
+	
+	/**
+	 * The list of components in this term.
+	 */
+	private ArrayList<String> components;
+
+	/**
+	 * Constructs the term by its components and whether an error occurred
+	 * @param components The list of components in the term
+	 * @param error The error defined by 1=failure 0=success
+	 */
+	public Term(ArrayList<String> components, boolean error) {
+		this.error = error;
+		this.components = components;
+	}
+	
+	/**
+	 * Get the components for this term.
+	 * @return The components for this term
+	 */
+	public ArrayList<String> getComponents() {
+		return this.components;
+	}
+	
+	/**
+	 * Calculate the value of this term as the values are put into the term.
+	 * The values HashMap should contain the term names and the values it should take.
+	 * 
+	 * @param values The list of terms with the value that it should take.
+	 * @return The result of this term.
+	 */
+	public float calculate(HashMap<String, Float> values) {
+		float result = 1.0f; // 1*h1*h2...
+		
+		try {
+			for(String component : components) {
+				if(!values.containsKey(component)) throw new Exception("Component was not found in the value map.");
+				result *= values.get(component);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		if(error)
+			result = 1 - result;
+		
+		return result;
+	}
+	
+	/**
+	 * Print this term in a more readable manner.
+	 * @return Human readable representation.
+	 */
+	@Override
+	public String toString() {
+		String str = "(";
+		if(this.error) str += "1 - ";
+		int i = 0;
+		for(String component : this.components) {
+			if(i != 0) {
+				str += " * ";
+			}
+			str += component;
+			i++;
+		}
+		return str + ")";
+	}
+
+}

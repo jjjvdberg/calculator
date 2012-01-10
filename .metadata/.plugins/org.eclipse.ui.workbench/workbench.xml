@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="34" version="2.0">
+<workbench progressCount="28" version="2.0">
 <workbenchAdvisor/>
-<window height="728" maximized="true" width="1024" x="161" y="0">
+<window height="728" maximized="true" width="683" x="-1768" y="-635">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.maven.ide.eclipse.views.MavenRepositoryView"/>
 </fastViewData>
@@ -19,12 +19,13 @@
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.maven.ide.eclipse.editor.MavenPomEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -58,18 +59,28 @@
 <part id="19"/>
 <part id="20"/>
 <part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="28"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestLogHeaderHandler.java" partName="RequestLogHeaderHandler.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java" title="RequestLogHeaderHandler.java" tooltip="Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3167" selectionTopPixel="1190"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TraceStatePoint.java" partName="TraceStatePoint.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/TraceStatePoint.java" title="TraceStatePoint.java" tooltip="Pipelines/src/dev/log/trace/TraceStatePoint.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/TraceStatePoint.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="844" selectionTopPixel="0"/>
-</editor>
 <editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" partName="ClientConfig.xml" path="C:/eclipse_workspaces/calculator/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/MultiplyService/ClientConfig.xml" title="ClientConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/MultiplyService/ClientConfig.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/MultiplyService/ClientConfig.xml"/>
 </editor>
@@ -78,7 +89,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ParseServiceConsumer.java" partName="ParseServiceConsumer.java" path="C:/eclipse_workspaces/calculator/ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java" title="ParseServiceConsumer.java" tooltip="ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1808" selectionTopPixel="306"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2079" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NegateServiceImpl.java" partName="NegateServiceImpl.java" path="C:/eclipse_workspaces/calculator/NegateServiceImpl/src/calculations/dev/negateservice/NegateServiceImpl.java" title="NegateServiceImpl.java" tooltip="NegateServiceImpl/src/calculations/dev/negateservice/NegateServiceImpl.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NegateServiceImpl/src/calculations/dev/negateservice/NegateServiceImpl.java"/>
@@ -90,7 +101,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MySQLConnector.java" partName="MySQLConnector.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/MySQLConnector.java" title="MySQLConnector.java" tooltip="Pipelines/src/dev/log/trace/MySQLConnector.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/MySQLConnector.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1835" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="2058" selectionTopPixel="462"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SpectrumBasedFaultLocalization.java" partName="SpectrumBasedFaultLocalization.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/SpectrumBasedFaultLocalization.java" title="SpectrumBasedFaultLocalization.java" tooltip="Pipelines/src/dev/log/trace/SpectrumBasedFaultLocalization.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/SpectrumBasedFaultLocalization.java"/>
@@ -100,53 +111,130 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/test/TestSpectrumBasedFaultLocalization.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="245" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SpectrumBasedMultipleFaultLocalization.java" partName="SpectrumBasedMultipleFaultLocalization.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/SpectrumBasedMultipleFaultLocalization.java" title="SpectrumBasedMultipleFaultLocalization.java" tooltip="Pipelines/src/dev/log/trace/SpectrumBasedMultipleFaultLocalization.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/SpectrumBasedMultipleFaultLocalization.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1829" selectionTopPixel="1257"/>
-</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestSpectrumBasedMultipleFaultLocalization.java" partName="TestSpectrumBasedMultipleFaultLocalization.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/test/TestSpectrumBasedMultipleFaultLocalization.java" title="TestSpectrumBasedMultipleFaultLocalization.java" tooltip="Pipelines/src/dev/log/trace/test/TestSpectrumBasedMultipleFaultLocalization.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/test/TestSpectrumBasedMultipleFaultLocalization.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1810" selectionTopPixel="237"/>
+<editorState selectionHorizontalPixel="0" selectionLength="665" selectionOffset="2052" selectionTopPixel="662"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Staccato.java" partName="Staccato.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/Staccato.java" title="Staccato.java" tooltip="Pipelines/src/dev/log/trace/Staccato.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/Staccato.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1459" selectionTopPixel="679"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="2451" selectionTopPixel="1075"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Matrix.java" partName="Matrix.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/activity/Matrix.java" title="Matrix.java" tooltip="Pipelines/src/dev/log/activity/Matrix.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/activity/Matrix.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1964" selectionTopPixel="387"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Matrix.java" partName="Matrix.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/barinel/activity/Matrix.java" title="Matrix.java" tooltip="Pipelines/src/dev/log/barinel/activity/Matrix.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/barinel/activity/Matrix.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9876" selectionTopPixel="5015"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestActivityMatrix.java" partName="TestActivityMatrix.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/test/TestActivityMatrix.java" title="TestActivityMatrix.java" tooltip="Pipelines/src/dev/log/trace/test/TestActivityMatrix.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/test/TestActivityMatrix.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1172" selectionTopPixel="84"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="890" selectionTopPixel="153"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Vector.java" partName="Vector.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/activity/Vector.java" title="Vector.java" tooltip="Pipelines/src/dev/log/activity/Vector.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/activity/Vector.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1785" selectionTopPixel="1019"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1589" selectionTopPixel="373"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ErrorVector.java" partName="ErrorVector.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/activity/ErrorVector.java" title="ErrorVector.java" tooltip="Pipelines/src/dev/log/activity/ErrorVector.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/activity/ErrorVector.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="323" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ErrorVector.java" partName="ErrorVector.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/barinel/activity/ErrorVector.java" title="ErrorVector.java" tooltip="Pipelines/src/dev/log/barinel/activity/ErrorVector.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/barinel/activity/ErrorVector.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="820" selectionTopPixel="85"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ComponentVector.java" partName="ComponentVector.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/activity/ComponentVector.java" title="ComponentVector.java" tooltip="Pipelines/src/dev/log/activity/ComponentVector.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/activity/ComponentVector.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1310" selectionTopPixel="645"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4945" selectionTopPixel="2601"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestComponentVector.java" partName="TestComponentVector.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/test/TestComponentVector.java" title="TestComponentVector.java" tooltip="Pipelines/src/dev/log/trace/test/TestComponentVector.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/test/TestComponentVector.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="945" selectionTopPixel="237"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Function.java" partName="Function.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/health/Function.java" title="Function.java" tooltip="Pipelines/src/dev/log/health/Function.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/health/Function.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1472" selectionTopPixel="458"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFunction.java" partName="TestFunction.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/test/TestFunction.java" title="TestFunction.java" tooltip="Pipelines/src/dev/log/trace/test/TestFunction.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFunction.java" partName="TestFunction.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/test/TestFunction.java" title="TestFunction.java" tooltip="Pipelines/src/dev/log/trace/test/TestFunction.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/test/TestFunction.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1146" selectionTopPixel="33"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="621" selectionTopPixel="68"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Term.java" partName="Term.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/health/Term.java" title="Term.java" tooltip="Pipelines/src/dev/log/health/Term.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/health/Term.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="206" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SpectrumBasedMultipleFaultLocalization.java" partName="SpectrumBasedMultipleFaultLocalization.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/SpectrumBasedMultipleFaultLocalization.java" title="SpectrumBasedMultipleFaultLocalization.java" tooltip="Pipelines/src/dev/log/trace/SpectrumBasedMultipleFaultLocalization.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/SpectrumBasedMultipleFaultLocalization.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="61" selectionOffset="1291" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AIM.java" partName="AIM.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/barinel/mhs/AIM.java" title="AIM.java" tooltip="Pipelines/src/dev/log/barinel/mhs/AIM.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/barinel/mhs/AIM.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="27" selectionOffset="3253" selectionTopPixel="1292"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HittingSet.java" partName="HittingSet.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/barinel/mhs/HittingSet.java" title="HittingSet.java" tooltip="Pipelines/src/dev/log/barinel/mhs/HittingSet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/barinel/mhs/HittingSet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1205" selectionTopPixel="765"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestIncrementalMHS.java" partName="TestIncrementalMHS.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/test/TestIncrementalMHS.java" title="TestIncrementalMHS.java" tooltip="Pipelines/src/dev/log/trace/test/TestIncrementalMHS.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/test/TestIncrementalMHS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="407" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StaccatoReadFileThread.java" partName="StaccatoReadFileThread.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/test/StaccatoReadFileThread.java" title="StaccatoReadFileThread.java" tooltip="Pipelines/src/dev/log/trace/test/StaccatoReadFileThread.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/test/StaccatoReadFileThread.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="407" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IncMHSReadFileThread.java" partName="IncMHSReadFileThread.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/test/IncMHSReadFileThread.java" title="IncMHSReadFileThread.java" tooltip="Pipelines/src/dev/log/trace/test/IncMHSReadFileThread.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/test/IncMHSReadFileThread.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1445" selectionTopPixel="16"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="matrix_smaller.txt" partName="matrix_smaller.txt" path="C:/eclipse_workspaces/calculator/Pipelines/matrix_smaller.txt" title="matrix_smaller.txt" tooltip="Pipelines/matrix_smaller.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/matrix_smaller.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1290" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="matrix_even_smaller.txt" partName="matrix_even_smaller.txt" path="C:/eclipse_workspaces/calculator/Pipelines/matrix_even_smaller.txt" title="matrix_even_smaller.txt" tooltip="Pipelines/matrix_even_smaller.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/matrix_even_smaller.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="33" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Barinel.java" partName="Barinel.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/barinel/Barinel.java" title="Barinel.java" tooltip="Pipelines/src/dev/log/barinel/Barinel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/barinel/Barinel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1724" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Function.java" partName="Function.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/barinel/health/Function.java" title="Function.java" tooltip="Pipelines/src/dev/log/barinel/health/Function.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/barinel/health/Function.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="20" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Term.java" partName="Term.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/barinel/health/Term.java" title="Term.java" tooltip="Pipelines/src/dev/log/barinel/health/Term.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/barinel/health/Term.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="20" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestLogHeaderHandler.java" partName="RequestLogHeaderHandler.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java" title="RequestLogHeaderHandler.java" tooltip="Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2303" selectionTopPixel="734"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Read.java" partName="Read.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/barinel/test/Read.java" title="Read.java" tooltip="Pipelines/src/dev/log/barinel/test/Read.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/barinel/test/Read.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="803" selectionTopPixel="220"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestBarinel.java" partName="TestBarinel.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/barinel/test/TestBarinel.java" title="TestBarinel.java" tooltip="Pipelines/src/dev/log/barinel/test/TestBarinel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/barinel/test/TestBarinel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1422" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TraceStatePoint.java" partName="TraceStatePoint.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/trace/TraceStatePoint.java" title="TraceStatePoint.java" tooltip="Pipelines/src/dev/log/trace/TraceStatePoint.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/trace/TraceStatePoint.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="1402" selectionTopPixel="224"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResponseLogHeaderHandler.java" partName="ResponseLogHeaderHandler.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/handler/ResponseLogHeaderHandler.java" title="ResponseLogHeaderHandler.java" tooltip="Pipelines/src/dev/log/handler/ResponseLogHeaderHandler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/handler/ResponseLogHeaderHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1288" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ServiceConfig.xml" partName="ServiceConfig.xml" path="C:/eclipse_workspaces/calculator/ParseServiceImpl/meta-src/META-INF/soa/services/config/ParseService/ServiceConfig.xml" title="ServiceConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/services/config/ParseService/ServiceConfig.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseServiceImpl/meta-src/META-INF/soa/services/config/ParseService/ServiceConfig.xml"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ServiceConfig.xml" partName="ServiceConfig.xml" path="C:/eclipse_workspaces/calculator/NegateServiceImpl/meta-src/META-INF/soa/services/config/NegateService/ServiceConfig.xml" title="ServiceConfig.xml" tooltip="NegateServiceImpl/meta-src/META-INF/soa/services/config/NegateService/ServiceConfig.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NegateServiceImpl/meta-src/META-INF/soa/services/config/NegateService/ServiceConfig.xml"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" partName="ClientConfig.xml" path="C:/eclipse_workspaces/calculator/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/NegateService/ClientConfig.xml" title="ClientConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/NegateService/ClientConfig.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/NegateService/ClientConfig.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Execution.java" partName="Execution.java" path="C:/eclipse_workspaces/calculator/Pipelines/src/dev/log/barinel/translate/Execution.java" title="Execution.java" tooltip="Pipelines/src/dev/log/barinel/translate/Execution.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pipelines/src/dev/log/barinel/translate/Execution.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1057" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ParseServiceImpl.java" partName="ParseServiceImpl.java" path="C:/eclipse_workspaces/calculator/ParseServiceImpl/src/calculations/dev/parseservice/ParseServiceImpl.java" title="ParseServiceImpl.java" tooltip="ParseServiceImpl/src/calculations/dev/parseservice/ParseServiceImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseServiceImpl/src/calculations/dev/parseservice/ParseServiceImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3522" selectionTopPixel="598"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="BaseServiceProxy.class" partName="BaseServiceProxy.class" title="BaseServiceProxy.class" tooltip="org.ebayopensource.turmeric.runtime.sif.impl.internal.service.BaseServiceProxy" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=MultiplyService/C:\/Users\/Joel\/.m2\/repository\/org\/ebayopensource\/turmeric\/runtime\/soa-client\/1.0.1.0-SNAPSHOT\/soa-client-1.0.1.0-SNAPSHOT.jar&lt;org.ebayopensource.turmeric.runtime.sif.impl.internal.service(BaseServiceProxy.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1706" selectionTopPixel="564"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ParseServiceProxy.java" partName="ParseServiceProxy.java" path="C:/eclipse_workspaces/calculator/ParseService/gen-src/client/calculations/dev/parseservice/gen/ParseServiceProxy.java" title="ParseServiceProxy.java" tooltip="ParseService/gen-src/client/calculations/dev/parseservice/gen/ParseServiceProxy.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParseService/gen-src/client/calculations/dev/parseservice/gen/ParseServiceProxy.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2079" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -200,7 +288,9 @@
 <view id="org.maven.ide.eclipse.views.MavenRepositoryView" partName="Maven Repositories">
 <viewState/>
 </view>
-<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
 <perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
@@ -223,11 +313,11 @@
 <alwaysOnActionSet id="org.eclipse.jst.j2ee.J2eeMainActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
-<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
 <alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
 <show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
@@ -265,7 +355,7 @@
 <view id="org.maven.ide.eclipse.views.MavenRepositoryView" ratio="0.29984662"/>
 </fastViews>
 <fastViewBars>
-<fastViewBar fastViewLocation="131072" id="topRight" orientation="512" selectedTabId="org.eclipse.jdt.junit.ResultView" style="1">
+<fastViewBar fastViewLocation="131072" id="topRight" orientation="512" selectedTabId="org.eclipse.debug.ui.DebugView" style="1">
 <fastViews>
 <view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
@@ -279,13 +369,13 @@
 <view id="org.eclipse.wst.server.ui.ServersView" ratio="0.3"/>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" ratio="0.3"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" ratio="0.3"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.6784"/>
-<view id="org.eclipse.search.ui.views.SearchView" ratio="0.2992"/>
+<view id="org.eclipse.search.ui.views.SearchView" ratio="0.29899725"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.7146764"/>
 </fastViews>
 </fastViewBar>
 <fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
 <fastViews>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3029141"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.28579116"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -330,6 +420,7 @@
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
@@ -401,7 +492,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.52572346" ratioLeft="327" ratioRight="295" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.38263667" ratioLeft="238" ratioRight="384" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
@@ -414,7 +505,7 @@
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.44871795" ratioLeft="210" ratioRight="258" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info part="org.eclipse.ui.editorss" ratio="0.40445268" ratioLeft="218" ratioRight="321" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
 <info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="978" ratioRight="326" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
@@ -438,163 +529,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/trace/SpectrumBasedMultipleFaultLocalization.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/health/Function.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/trace/test/TestFunction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/health/Term.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/trace/test/TestComponentVector.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/trace/test/TestActivityMatrix.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/trace/test/TestFunction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/handler/RequestLogHeaderHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/handler/ResponseLogHeaderHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/barinel/translate/Execution.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ParseServiceConsumer/src/calculations/dev/parseservice/ParseServiceConsumer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ParseServiceImpl/src/calculations/dev/parseservice/ParseServiceImpl.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=MultiplyService/C:\/Users\/Joel\/.m2\/repository\/org\/ebayopensource\/turmeric\/runtime\/soa-client\/1.0.1.0-SNAPSHOT\/soa-client-1.0.1.0-SNAPSHOT.jar&lt;org.ebayopensource.turmeric.runtime.sif.impl.internal.service(BaseServiceProxy.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ParseService/gen-src/client/calculations/dev/parseservice/gen/ParseServiceProxy.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/NegateServiceImpl/meta-src/META-INF/soa/services/config/NegateService/ServiceConfig.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/ParseServiceImpl/meta-src/META-INF/soa/services/config/ParseService/ServiceConfig.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/trace/TraceStatePoint.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/trace/MySQLConnector.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Pipelines/src/dev/log/barinel/test/TestBarinel.java"/>
 </editors>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="966" y="0"/>
+<item historyLabel="RequestLogHeaderHandler.java" index="0">
+<position info="not_deleted" x="2303" y="0"/>
 </item>
-<item historyLabel="SpectrumBasedMultipleFaultLocalization.java" index="0">
-<position info="not_deleted" x="1612" y="536"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="966" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1042" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="464" y="0"/>
-</item>
-<item historyLabel="Term.java" index="3">
-<position info="not_deleted" x="373" y="0"/>
-</item>
-<item historyLabel="Term.java" index="3">
-<position info="not_deleted" x="142" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="464" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="280" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="464" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1174" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1909" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1476" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1584" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1569" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1584" y="0"/>
-</item>
-<item historyLabel="TestFunction.java" index="2">
-<position info="not_deleted" x="972" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="382" y="44"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="233" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="232" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="167" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1584" y="0"/>
-</item>
-<item historyLabel="Function.java" index="1">
+<item historyLabel="ParseServiceConsumer.java" index="3">
 <position/>
 </item>
-<item historyLabel="Function.java" index="1">
+<item historyLabel="ParseServiceImpl.java" index="4">
+<position info="not_deleted" x="1525" y="0"/>
+</item>
+<item historyLabel="ParseServiceConsumer.java" index="3">
+<position info="not_deleted" x="1703" y="0"/>
+</item>
+<item historyLabel="ParseServiceImpl.java" index="4">
+<position info="not_deleted" x="3449" y="0"/>
+</item>
+<item historyLabel="BaseServiceProxy.class" index="5">
+<position info="not_deleted" x="1706" y="0"/>
+</item>
+<item historyLabel="ParseServiceProxy.java" index="6">
+<position info="not_deleted" x="2086" y="0"/>
+</item>
+<item historyLabel="ParseServiceConsumer.java" index="3">
+<position info="not_deleted" x="1703" y="0"/>
+</item>
+<item historyLabel="ParseServiceImpl.java" index="4">
+<position info="not_deleted" x="3449" y="0"/>
+</item>
+<item historyLabel="ParseServiceConsumer.java" index="3">
+<position info="not_deleted" x="1714" y="0"/>
+</item>
+<item historyLabel="ParseServiceProxy.java" index="6">
+<position info="not_deleted" x="2086" y="0"/>
+</item>
+<item historyLabel="ParseServiceImpl.java" index="4">
+<position info="not_deleted" x="3449" y="0"/>
+</item>
+<item historyLabel="ParseServiceImpl.java" index="4">
+<position info="not_deleted" x="3766" y="0"/>
+</item>
+<item historyLabel="Execution.java" index="2">
+<position info="not_deleted" x="1057" y="0"/>
+</item>
+<item historyLabel="ParseServiceImpl.java" index="4">
+<position info="not_deleted" x="3886" y="0"/>
+</item>
+<item historyLabel="ParseServiceProxy.java" index="6">
+<position info="not_deleted" x="2093" y="0"/>
+</item>
+<item historyLabel="RequestLogHeaderHandler.java" index="0">
+<position info="not_deleted" x="2303" y="0"/>
+</item>
+<item historyLabel="Execution.java" index="2">
+<position info="not_deleted" x="1057" y="0"/>
+</item>
+<item historyLabel="Execution.java" index="2">
 <position/>
 </item>
-<item historyLabel="Function.java" index="1">
+<item historyLabel="Execution.java" index="2">
+<position info="not_deleted" x="1057" y="0"/>
+</item>
+<item historyLabel="ServiceConfig.xml" index="7"/>
+<item historyLabel="ServiceConfig.xml" index="8"/>
+<item historyLabel="ServiceConfig.xml" index="7"/>
+<item historyLabel="Execution.java" index="2">
 <position/>
 </item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="892" y="0"/>
+<item historyLabel="ParseServiceConsumer.java" index="3">
+<position info="not_deleted" x="2814" y="0"/>
 </item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="636" y="0"/>
+<item historyLabel="ParseServiceProxy.java" index="6">
+<position info="not_deleted" x="2093" y="0"/>
 </item>
-<item historyLabel="Function.java" index="1">
-<position/>
+<item historyLabel="ParseServiceImpl.java" index="4">
+<position info="not_deleted" x="3881" y="0"/>
 </item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="619" y="0"/>
+<item historyLabel="Execution.java" index="2">
+<position info="not_deleted" x="1057" y="0"/>
 </item>
-<item historyLabel="Term.java" index="3">
-<position info="not_deleted" x="206" y="10"/>
+<item historyLabel="TraceStatePoint.java" index="9">
+<position info="not_deleted" x="1402" y="10"/>
 </item>
-<item historyLabel="TestFunction.java" index="2">
-<position info="not_deleted" x="972" y="0"/>
+<item historyLabel="MySQLConnector.java" index="10">
+<position info="not_deleted" x="2058" y="6"/>
 </item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="464" y="0"/>
+<item historyLabel="RequestLogHeaderHandler.java" index="0">
+<position info="not_deleted" x="2303" y="0"/>
 </item>
-<item historyLabel="TestComponentVector.java" index="4">
-<position info="not_deleted" x="945" y="0"/>
+<item historyLabel="ParseServiceProxy.java" index="6">
+<position info="not_deleted" x="2093" y="0"/>
 </item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="464" y="0"/>
+<item historyLabel="BaseServiceProxy.class" index="5">
+<position info="not_deleted" x="1706" y="0"/>
 </item>
-<item historyLabel="TestFunction.java" index="2">
-<position info="not_deleted" x="784" y="0"/>
+<item historyLabel="ParseServiceImpl.java" index="4">
+<position info="not_deleted" x="3881" y="0"/>
 </item>
-<item historyLabel="Function.java" index="1">
-<position/>
+<item historyLabel="ParseServiceImpl.java" index="4">
+<position info="not_deleted" x="2994" y="0"/>
 </item>
-<item historyLabel="TestActivityMatrix.java" index="5">
-<position info="not_deleted" x="1172" y="0"/>
+<item historyLabel="MySQLConnector.java" index="10">
+<position info="not_deleted" x="2058" y="6"/>
 </item>
-<item historyLabel="SpectrumBasedMultipleFaultLocalization.java" index="0">
-<position info="not_deleted" x="1829" y="0"/>
+<item historyLabel="ParseServiceConsumer.java" index="3">
+<position info="not_deleted" x="2318" y="0"/>
 </item>
-<item historyLabel="Term.java" index="3">
-<position info="not_deleted" x="206" y="10"/>
+<item historyLabel="ParseServiceProxy.java" index="6">
+<position info="not_deleted" x="2093" y="0"/>
 </item>
-<item historyLabel="TestFunction.java" index="2">
-<position info="not_deleted" x="784" y="0"/>
+<item historyLabel="Execution.java" index="2">
+<position info="not_deleted" x="1057" y="0"/>
 </item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1698" y="0"/>
+<item historyLabel="Execution.java" index="2">
+<position info="not_deleted" x="1048" y="0"/>
 </item>
-<item historyLabel="TestFunction.java" index="2">
-<position info="not_deleted" x="784" y="0"/>
+<item historyLabel="ParseServiceConsumer.java" index="3">
+<position info="not_deleted" x="2318" y="0"/>
 </item>
-<item historyLabel="TestFunction.java" index="2">
-<position info="not_deleted" x="1033" y="0"/>
+<item historyLabel="ParseServiceProxy.java" index="6">
+<position info="not_deleted" x="2079" y="0"/>
 </item>
-<item historyLabel="TestFunction.java" index="2">
-<position info="not_deleted" x="1035" y="0"/>
+<item historyLabel="Execution.java" index="2">
+<position info="not_deleted" x="991" y="0"/>
 </item>
-<item historyLabel="TestFunction.java" index="2">
-<position info="not_deleted" x="1064" y="0"/>
+<item historyLabel="ParseServiceConsumer.java" index="3">
+<position info="not_deleted" x="2253" y="0"/>
 </item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1836" y="0"/>
+<item historyLabel="ParseServiceImpl.java" index="4">
+<position info="not_deleted" x="2132" y="70"/>
 </item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1592" y="0"/>
+<item historyLabel="ParseServiceConsumer.java" index="3">
+<position info="not_deleted" x="2079" y="0"/>
 </item>
-<item historyLabel="Function.java" index="1">
-<position info="not_deleted" x="1688" y="0"/>
+<item historyLabel="ParseServiceImpl.java" index="4">
+<position info="not_deleted" x="3522" y="0"/>
 </item>
-<item active="true" historyLabel="TestFunction.java" index="6">
-<position info="not_deleted" x="1064" y="0"/>
+<item historyLabel="Execution.java" index="2">
+<position info="not_deleted" x="1057" y="0"/>
+</item>
+<item historyLabel="ResponseLogHeaderHandler.java" index="1">
+<position info="not_deleted" x="1288" y="0"/>
+</item>
+<item active="true" historyLabel="TestBarinel.java" index="11">
+<position info="not_deleted" x="1485" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -621,50 +711,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="ParseServiceImpl-1.0.0.jar" tooltip="ParseServiceImpl/target/ParseServiceImpl-1.0.0.jar">
-<persistable path="/ParseServiceImpl/target/ParseServiceImpl-1.0.0.jar"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ParseServiceProxy.java" tooltip="ParseService/gen-src/client/calculations/dev/parseservice/gen/ParseServiceProxy.java">
+<persistable path="/ParseService/gen-src/client/calculations/dev/parseservice/gen/ParseServiceProxy.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Term.java" tooltip="Pipelines/src/dev/log/health/Term.java">
-<persistable path="/Pipelines/src/dev/log/health/Term.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="BaseServiceProxy.class" tooltip="org.ebayopensource.turmeric.runtime.sif.impl.internal.service.BaseServiceProxy">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=MultiplyService/C:\/Users\/Joel\/.m2\/repository\/org\/ebayopensource\/turmeric\/runtime\/soa-client\/1.0.1.0-SNAPSHOT\/soa-client-1.0.1.0-SNAPSHOT.jar&lt;org.ebayopensource.turmeric.runtime.sif.impl.internal.service(BaseServiceProxy.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFunction.java" tooltip="Pipelines/src/dev/log/trace/test/TestFunction.java">
-<persistable path="/Pipelines/src/dev/log/trace/test/TestFunction.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ParseServiceImpl.java" tooltip="ParseServiceImpl/src/calculations/dev/parseservice/ParseServiceImpl.java">
+<persistable path="/ParseServiceImpl/src/calculations/dev/parseservice/ParseServiceImpl.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Function.java" tooltip="Pipelines/src/dev/log/health/Function.java">
-<persistable path="/Pipelines/src/dev/log/health/Function.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Execution.java" tooltip="Pipelines/src/dev/log/barinel/translate/Execution.java">
+<persistable path="/Pipelines/src/dev/log/barinel/translate/Execution.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.maven.ide.eclipse.editor.MavenPomEditor" name="pom.xml" tooltip="Pipelines/pom.xml">
-<persistable path="/Pipelines/pom.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/NegateService/ClientConfig.xml">
+<persistable path="/ParseServiceImpl/meta-src/META-INF/soa/client/config/ParseService/production/NegateService/ClientConfig.xml"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="java.lang.String">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Pipelines/C:\/Program Files \(x86)\/Java\/jdk1.7.0\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ClientConfig.xml" tooltip="ParseServiceConsumer/meta-src/META-INF/soa/client/config/ParseServiceConsumer/production/ParseService/ClientConfig.xml">
+<persistable path="/ParseServiceConsumer/meta-src/META-INF/soa/client/config/ParseServiceConsumer/production/ParseService/ClientConfig.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestComponentVector.java" tooltip="Pipelines/src/dev/log/trace/test/TestComponentVector.java">
-<persistable path="/Pipelines/src/dev/log/trace/test/TestComponentVector.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ServiceConfig.xml" tooltip="NegateServiceImpl/meta-src/META-INF/soa/services/config/NegateService/ServiceConfig.xml">
+<persistable path="/NegateServiceImpl/meta-src/META-INF/soa/services/config/NegateService/ServiceConfig.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ComponentVector.java" tooltip="Pipelines/src/dev/log/activity/ComponentVector.java">
-<persistable path="/Pipelines/src/dev/log/activity/ComponentVector.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="trace_log.txt" tooltip="ParseServiceConsumer/trace_log.txt">
+<persistable path="/ParseServiceConsumer/trace_log.txt"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ErrorVector.java" tooltip="Pipelines/src/dev/log/activity/ErrorVector.java">
-<persistable path="/Pipelines/src/dev/log/activity/ErrorVector.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="trace_sequence_ParseService_2.txt" tooltip="ParseServiceConsumer/trace_sequence_ParseService_2.txt">
+<persistable path="/ParseServiceConsumer/trace_sequence_ParseService_2.txt"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Vector.java" tooltip="Pipelines/src/dev/log/activity/Vector.java">
-<persistable path="/Pipelines/src/dev/log/activity/Vector.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ServiceConfig.xml" tooltip="ParseServiceImpl/meta-src/META-INF/soa/services/config/ParseService/ServiceConfig.xml">
+<persistable path="/ParseServiceImpl/meta-src/META-INF/soa/services/config/ParseService/ServiceConfig.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestActivityMatrix.java" tooltip="Pipelines/src/dev/log/trace/test/TestActivityMatrix.java">
-<persistable path="/Pipelines/src/dev/log/trace/test/TestActivityMatrix.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResponseLogHeaderHandler.java" tooltip="Pipelines/src/dev/log/handler/ResponseLogHeaderHandler.java">
+<persistable path="/Pipelines/src/dev/log/handler/ResponseLogHeaderHandler.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ActivityMatrix.java" tooltip="Pipelines/src/dev/log/trace/ActivityMatrix.java">
-<persistable path="/Pipelines/src/dev/log/trace/ActivityMatrix.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TraceStatePoint.java" tooltip="Pipelines/src/dev/log/trace/TraceStatePoint.java">
+<persistable path="/Pipelines/src/dev/log/trace/TraceStatePoint.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Staccato.java" tooltip="Pipelines/src/dev/log/trace/Staccato.java">
-<persistable path="/Pipelines/src/dev/log/trace/Staccato.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReadString.java" tooltip="Pipelines/src/dev/log/barinel/test/ReadString.java">
+<persistable path="/Pipelines/src/dev/log/barinel/test/ReadString.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestSpectrumBasedMultipleFaultLocalization.java" tooltip="Pipelines/src/dev/log/trace/test/TestSpectrumBasedMultipleFaultLocalization.java">
-<persistable path="/Pipelines/src/dev/log/trace/test/TestSpectrumBasedMultipleFaultLocalization.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestBarinel.java" tooltip="Pipelines/src/dev/log/barinel/test/TestBarinel.java">
+<persistable path="/Pipelines/src/dev/log/barinel/test/TestBarinel.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SpectrumBasedMultipleFaultLocalization.java" tooltip="Pipelines/src/dev/log/trace/SpectrumBasedMultipleFaultLocalization.java">
-<persistable path="/Pipelines/src/dev/log/trace/SpectrumBasedMultipleFaultLocalization.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReadFile.java" tooltip="Pipelines/src/dev/log/barinel/test/ReadFile.java">
+<persistable path="/Pipelines/src/dev/log/barinel/test/ReadFile.java"/>
 </file>
 </mruList>
 </workbench>

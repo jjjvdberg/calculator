@@ -1,0 +1,45 @@
+package dev.log.health;
+
+import java.util.ArrayList;
+
+import dev.log.activity.ErrorVector;
+import dev.log.activity.Matrix;
+import dev.log.mhs.HittingSet;
+
+/**
+ * This algorithm calculates the order in which to analyze the different solutions
+ * to the AIM algorithm. It does so by calculating for the diagnosis set the maximum
+ * likelihood estimations and comparing them with each other.
+ * 
+ * This algorithm is purely used to save time during the analysis, as components in
+ * a combination might be more likely to cause the error than others.
+ * 
+ * @author Joel van den Berg
+ */
+public class Barinel {
+
+	static ArrayList<String> calculate(Matrix a) {
+		ArrayList<HittingSet> hittingSets = a.getHittingSets();
+		Function function = null;
+		for(HittingSet set : hittingSets) {
+			ErrorVector errorVector = a.getError();
+			ArrayList<Term> terms = new ArrayList<Term>();
+			int i = 0;
+			for(Integer error : errorVector.getValues()) {
+				ArrayList<String> components = new ArrayList<String>();
+				for(String c : set.getComponents()) {
+					if(a.getComponent(c).getValue(i).equals(1)) {
+						components.add(c);
+					}
+				}
+				Term t = new Term(components, error);
+				terms.add(t);
+				i++;
+			}
+			function = new Function(terms);
+		}
+		function.maximize();
+		return new ArrayList<String>();
+	}
+	
+}

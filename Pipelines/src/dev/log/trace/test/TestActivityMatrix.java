@@ -2,13 +2,54 @@ package dev.log.trace.test;
 
 import java.util.ArrayList;
 
-import dev.log.activity.ComponentVector;
-import dev.log.activity.ErrorVector;
-import dev.log.activity.Matrix;
+import dev.log.barinel.activity.ComponentVector;
+import dev.log.barinel.activity.ErrorVector;
+import dev.log.barinel.activity.Matrix;
 
 public class TestActivityMatrix {
 
 	public static void main(String[] args) {
+		testCase2();
+	}
+	
+	public static void testCase2() {
+		Matrix matrix = new Matrix();
+		
+		ArrayList<String> execution = new ArrayList<String>();
+		execution.add("c1");
+		execution.add("c3");
+		matrix.addExecution(execution, 1);
+		System.out.println(matrix);
+		
+		execution = new ArrayList<String>();
+		execution.add("c2");
+		execution.add("c3");
+		matrix.addExecution(execution, 1);
+		System.out.println(matrix);
+		
+//		execution = new ArrayList<String>();
+//		execution.add("c1");
+//		matrix.addExecution(execution, 1);
+		
+		execution = new ArrayList<String>();
+		execution.add("c1");
+		execution.add("c3");
+		matrix.addExecution(execution, 0);
+		System.out.println(matrix);
+		
+		execution = new ArrayList<String>();
+		execution.add("c4");
+		matrix.addExecution(execution, 0);
+		System.out.println(matrix);
+		
+		execution = new ArrayList<String>();
+		execution.add("c3");
+		execution.add("c4");
+		matrix.addExecution(execution, 1);
+		System.out.println(matrix);
+	}
+	
+	public static void testCase1() {
 		ComponentVector component1 = new ComponentVector();
 		ComponentVector component2 = new ComponentVector();
 		ComponentVector component3 = new ComponentVector();

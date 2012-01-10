@@ -1,0 +1,129 @@
+package dev.log.mhs;
+
+import java.util.ArrayList;
+
+import dev.log.activity.Matrix;
+import dev.log.trace.Staccato;
+import edu.emory.mathcs.backport.java.util.Collections;
+
+public class IncrementalMHS {
+
+	ArrayList<HittingSet> hittingsets = new ArrayList<HittingSet>();
+//	ArrayList<HittingSet> memory = new ArrayList<HittingSet>();
+	int errornumber = 0;
+	
+	public void addExecution(ArrayList<String> execution, Integer error) {
+		if(error == 1) {
+			if(hittingsets.isEmpty()) {// no errors occured yet
+				for(String c : execution) {
+					HittingSet set = new HittingSet();
+					set.addComponent(c);
+					set.addError(errornumber);
+					hittingsets.add(set);
+				}
+			} else {
+				/* check if there are sets that can't explain this set */
+				ArrayList<HittingSet> toAdd = new ArrayList<HittingSet>();
+				
+				for(HittingSet hitset : hittingsets) {
+					if(!hitset.containsAnyComponent(execution)) {
+						hittingsets.remove(hitset);
+						for(String c : execution) {
+							HittingSet copy = hitset.copy();
+							copy.addComponent(c);
+							copy.addError(errornumber);
+							if(!this.subsumedByHittingSets(copy))
+								toAdd.add(copy);
+						}
+//						memory.add(hitset);
+					}
+				}
+				hittingsets.addAll(toAdd);
+			}
+			errornumber++;
+		}
+	}
+	
+	public boolean addHittingSet(HittingSet set) {
+		System.out.println("adding hitting set: " + set);
+		if(!this.subsumedByHittingSets(set)) {
+			this.hittingsets.add(set);
+			return true;
+		}
+		return false;
+	}
+	
+	/**
+	 * If set contains all elements of an element in sets, it is subsumed by sets.
+	 * 
+	 * @param set the hitset that is checked to be subsumed
+	 * @param sets the list of hittingsets that may subsume set
+	 * @return true when set is subsumed by sets; false otherwise
+	 */
+	public boolean subsumedByHittingSets(HittingSet set) {
+		for(HittingSet hitset : this.hittingsets) {
+			boolean subsumed = true;
+			
+			subsumed = hitset.containsAllComponents(set);
+			
+			if(subsumed)
+				return true;
+		}
+		return false;
+	}
+	
+	/**
+	 * More human readable representation of the minimum-size hitting set
+	 * @return human readable string
+	 */
+	@Override
+	public String toString() {
+		return this.hittingsets.toString();
+	}
+	
+	public static void main(String[] args) throws Exception {
+
+		System.out.println("============Test1============");
+		long before = System.nanoTime();
+		IncrementalMHS mhs = new IncrementalMHS();
+		
+		ArrayList<String> execution = new ArrayList<String>();
+		execution.add("c1");
+		execution.add("c3");
+		mhs.addExecution(execution, 1);
+		
+		execution = new ArrayList<String>();
+		execution.add("c2");
+		execution.add("c3");
+		mhs.addExecution(execution, 1);
+
+		execution = new ArrayList<String>();
+		execution.add("c1");
+		execution.add("c3");
+		mhs.addExecution(execution, 0);
+		
+		System.out.println(mhs);
+		System.out.println(System.nanoTime() - before);
+		System.out.println("============Test2============");
+		before = System.nanoTime();
+		Matrix matrix = new Matrix();
+
+		ArrayList<String> mexecution = new ArrayList<String>();
+		mexecution.add("c1");
+		mexecution.add("c3");
+		matrix.addExecution(mexecution, 1);
+		
+		mexecution = new ArrayList<String>();
+		mexecution.add("c2");
+		mexecution.add("c3");
+		matrix.addExecution(mexecution, 1);
+
+		mexecution = new ArrayList<String>();
+		mexecution.add("c1");
+		mexecution.add("c3");
+		matrix.addExecution(mexecution, 0);
+		
+		System.out.println(Staccato.calculate(matrix));
+		System.out.println(System.nanoTime() - before);
+	}
+}

@@ -1,0 +1,23 @@
+package dev.log.thread;
+
+public class PrintThread implements Runnable{
+
+	int x = 0;
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println(x);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void incX(){
+		x++;
+	}
+
+}

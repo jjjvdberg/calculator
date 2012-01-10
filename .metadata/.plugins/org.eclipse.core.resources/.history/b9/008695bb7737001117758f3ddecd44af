@@ -1,0 +1,9 @@
+package dev.log.thread;
+
+public class RunThread {
+
+	public static void main(String[] args) {
+		PrintThread print = new PrintThread();
+		print.run();
+	}
+}

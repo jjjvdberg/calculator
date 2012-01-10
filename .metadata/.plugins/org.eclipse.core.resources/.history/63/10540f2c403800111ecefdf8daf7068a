@@ -1,0 +1,88 @@
+package dev.log.trace.test;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import dev.log.activity.Matrix;
+import dev.log.mhs.IncrementalMHS;
+import dev.log.trace.Staccato;
+
+public class TestIncrementalMHS {
+	public static void main(String[] args) throws Exception {
+//		generateTestFile(10, 30);
+//		StaccatoReadFileThread thread = new StaccatoReadFileThread();
+//		new Thread(thread).start();
+//		Thread.sleep(5000);
+		IncMHSReadFileThread thread2 = new IncMHSReadFileThread();
+		new Thread(thread2).start();
+	}
+	
+	public static void generateTestFile(int c, int r) {
+		for(int i = 0; i < r; i++) {
+			String line = "";
+			for(int j = 0; j < c; j++) {
+				int randC = 0;
+				if(Math.random() > 0.5) {
+					randC = 1;
+				}
+				if(j > 0)
+					line += " ";
+				line += randC;
+			}
+			String error = "-";
+			if(Math.random() > 0.5) {
+				error = "+";
+			}
+			System.out.println(line +"\t"+ error);
+		}
+	}
+	
+	public static void test() throws Exception {
+		
+		System.out.println("============Test1============");
+		long before = System.nanoTime();
+		IncrementalMHS mhs = new IncrementalMHS();
+		
+		ArrayList<String> execution = new ArrayList<String>();
+		execution.add("c1");
+		execution.add("c3");
+		mhs.addExecution(execution, 1);
+		
+		execution = new ArrayList<String>();
+		execution.add("c2");
+		execution.add("c3");
+		mhs.addExecution(execution, 1);
+
+		execution = new ArrayList<String>();
+		execution.add("c1");
+		execution.add("c3");
+		mhs.addExecution(execution, 0);
+		
+		System.out.println(mhs);
+		System.out.println(System.nanoTime() - before);
+		System.out.println("============Test2============");
+		before = System.nanoTime();
+		Matrix matrix = new Matrix();
+
+		ArrayList<String> mexecution = new ArrayList<String>();
+		mexecution.add("c1");
+		mexecution.add("c3");
+		matrix.addExecution(mexecution, 1);
+		
+		mexecution = new ArrayList<String>();
+		mexecution.add("c2");
+		mexecution.add("c3");
+		matrix.addExecution(mexecution, 1);
+
+		mexecution = new ArrayList<String>();
+		mexecution.add("c1");
+		mexecution.add("c3");
+		matrix.addExecution(mexecution, 0);
+		
+		System.out.println(Staccato.calculate(matrix));
+		System.out.println(System.nanoTime() - before);
+
+	}
+}

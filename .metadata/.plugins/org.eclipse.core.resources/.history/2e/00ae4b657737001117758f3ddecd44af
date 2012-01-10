@@ -1,0 +1,5 @@
+package dev.log.thread;
+
+public class PrintThread {
+
+}

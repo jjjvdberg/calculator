@@ -2,6 +2,7 @@
 package calculations.dev.parseservice;
 
 import org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException;
+import org.ebayopensource.turmeric.runtime.common.impl.internal.pipeline.MessageContextAccessorImpl;
 
 import calculations.dev.MultiplyRequest;
 import calculations.dev.NegateRequest;
@@ -13,6 +14,8 @@ import calculations.dev.multiplyservice.gen.SharedMultiplyServiceConsumer;
 import calculations.dev.negateservice.gen.SharedNegateServiceConsumer;
 import calculations.dev.powerservice.gen.SharedPowerServiceConsumer;
 import calculations.dev.sumservice.gen.SharedSumServiceConsumer;
+import dev.log.barinel.translate.Execution;
+import dev.log.handler.RequestLogHeaderHandler;
 
 public class ParseServiceImpl
     implements ParseService
@@ -22,7 +25,7 @@ public class ParseServiceImpl
     public ParseResponse parse(ParseRequest param0) {
     	
     	ParseResponse response = new ParseResponse();
-		
+		boolean error = false;
     	
 		try {
 
@@ -69,8 +72,36 @@ public class ParseServiceImpl
 				response.setOutput(x);
 			}
 			
-		} catch (ServiceException e) {
-			e.printStackTrace();
+			if(response.getOutput() == 0)
+				throw new Exception("Calculation was 0");
+			
+		} catch (Exception e) { 
+			System.out.println("MESSAGE "+MessageContextAccessorImpl.getContext());
+			String process_id = "";
+			try {
+				process_id = MessageContextAccessorImpl.getContext().getRequestMessage().getTransportHeader(RequestLogHeaderHandler.PROCESS_ID);
+			} catch (ServiceException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			Execution.addToMatrix(process_id, 1);
+			
+			error = true;
+		} finally {
+
+		if(!error) {
+			System.out.println("MESSAGE "+MessageContextAccessorImpl.getContext());
+			String process_id = "";
+			try {
+				process_id = MessageContextAccessorImpl.getContext().getRequestMessage().getTransportHeader(RequestLogHeaderHandler.PROCESS_ID);
+			} catch (ServiceException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			Execution.addToMatrix(process_id, 0);
+			
+		}
+		
 		}
 			
     	return response;

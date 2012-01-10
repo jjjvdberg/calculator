@@ -1,0 +1,140 @@
+package dev.log.mhs;
+
+import java.util.ArrayList;
+
+/**
+ * A hitting set consists of components and errors. The components together cover
+ * the list of errors.
+ * 
+ * @author Joel van den Berg
+ */
+public class HittingSet {
+
+	/**
+	 * The components that are in this hitting set
+	 */
+	ArrayList<String> components;
+	
+	/**
+	 * The errors that are covered by the combination of the components
+	 */
+	ArrayList<Integer> errors;
+	
+	/**
+	 * Initialize this hitting set with no components and errors
+	 */
+	public HittingSet() {
+		components = new ArrayList<String>();
+		errors = new ArrayList<Integer>();
+	}
+	
+	/**
+	 * Add a component to the hitting set
+	 * @param component The component to be added
+	 */
+	public void addComponent(String component){
+		this.components.add(component);
+	}
+	
+	/**
+	 * Add an error to this hitting set, but only if it is not already in
+	 * the error set
+	 * 
+	 * @param error The error to be added
+	 * @return true if it was not in the error set, false otherwise
+	 */
+	public boolean addError(Integer error) {
+		if(!errors.contains(error))
+			errors.add(error);
+		else
+			return false;
+		
+		return true;
+	}
+	
+	/**
+	 * Checks if this hitting set contains the given component
+	 * @param component The component that should be found
+	 * @return true if it contains the component, false otherwise
+	 */
+	public boolean containsComponent(String component){
+		return components.contains(component);
+	}
+	
+	/**
+	 * Get the amount of (unique) errors that are covered by this hitting set
+	 * @return The amount of errors
+	 */
+	public int errorCount() {
+		return this.errors.size();
+	}
+
+	/**
+	 * Check whether a component in the execution is in this hitset
+	 * @param execution
+	 */
+	public boolean containsAnyComponent(ArrayList<String> execution) {
+		for(String c : execution) {
+			if(this.containsComponent(c)) return true;
+		}
+		return false;
+	}
+
+	/**
+	 * Checks whether hitset contains all components of this hitset.
+	 * |this intersection hitset| equals |this|
+	 * @param hitset The hitset that may contain all the components of this set
+	 * @return <b>true</b> this hitset's components are also in hitset; <b>false</b> this hitset contains a componenent not in hitset
+	 */
+	public boolean containsAllComponents(HittingSet hitset) {
+		System.out.println("containsAllComponenents");
+		System.out.println(hitset);
+		for(String c : this.components) {
+			System.out.println(c);
+			if(!hitset.containsComponent(c)) {
+				System.out.println("return false");
+				return false;
+			}
+		}
+		System.out.println("return true");
+		return true;
+	}
+
+	public static void main(String[] args) {
+		HittingSet hitset = new HittingSet();
+		HittingSet hittest = new HittingSet();
+		hitset.addComponent("c1");
+		hitset.addComponent("c2");
+		hittest.addComponent("c2");
+		System.out.println(hitset.containsAllComponents(hittest));
+	}
+	/**
+	 * Deep copy this hitting set
+	 * @return the deep copy of the hitting set
+	 */
+	public HittingSet copy() {
+		HittingSet copy = new HittingSet();
+		for(String c : this.components)
+			copy.addComponent(c);
+		for(Integer e : this.errors)
+			copy.addError(e);
+		return copy;
+	}
+	
+	/**
+	 * Returns a more readable form for the hittingset by returning the components
+	 * for each hitting set.
+	 * @return More human readable string
+	 */
+	@Override
+	public String toString() {
+		String str = "[";
+		int i = 0;
+		for(String set : this.components) {
+			if(i > 0) str += ",";
+			str += set;
+			i++;
+		}
+		return str + "]";
+	}
+}

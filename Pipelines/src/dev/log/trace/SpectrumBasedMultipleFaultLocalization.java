@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import org.apache.commons.math.analysis.polynomials.PolynomialFunction;
 import org.jaxen.function.ext.EvaluateFunction;
 
-import dev.log.activity.ComponentVector;
-import dev.log.activity.ErrorVector;
-import dev.log.activity.Matrix;
+import dev.log.barinel.activity.ComponentVector;
+import dev.log.barinel.activity.ErrorVector;
+import dev.log.barinel.activity.Matrix;
 
 public class SpectrumBasedMultipleFaultLocalization {
 	
@@ -23,13 +23,12 @@ public class SpectrumBasedMultipleFaultLocalization {
 	 * calculate the spectrum based multiple localization
 	 * @throws Exception 
 	 */
-	public ArrayList<ArrayList<String>> calculate(Matrix matrix, double e) throws Exception {
-		 ArrayList<ArrayList<String>> d = Staccato.calculate(matrix, 1.0, 100);
-		 
+	public ArrayList<ArrayList<String>> calculate(Matrix matrix) throws Exception {
+		 ArrayList<ArrayList<String>> d = Staccato.calculate(matrix);
 		 for(ArrayList<String> dk : d) {
 			 
 			 Double expr = generatePr(matrix, dk);
-			 
+			 System.out.println(expr);
 		 }
 		 return d;
 	}
@@ -92,7 +91,6 @@ public class SpectrumBasedMultipleFaultLocalization {
 			y_new = Math.max(0.0f,y_old + eps * diff(new float[]{x_new,y_new},1));
 			
 		}
-		System.out.println(x_new + " and " + y_new);
 		return function(x_new,y_new);
 		
 	}
