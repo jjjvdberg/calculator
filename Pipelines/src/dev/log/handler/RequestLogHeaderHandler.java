@@ -1,27 +1,21 @@
 package dev.log.handler;
 
-import java.util.ArrayList;
-
 import org.ebayopensource.turmeric.runtime.common.exceptions.ServiceException;
 import org.ebayopensource.turmeric.runtime.common.impl.handlers.BaseHandler;
 import org.ebayopensource.turmeric.runtime.common.pipeline.InboundMessage;
 import org.ebayopensource.turmeric.runtime.common.pipeline.Message;
 import org.ebayopensource.turmeric.runtime.common.pipeline.MessageContext;
 
-import dev.log.trace.TraceStatePoint;
+import dev.log.trace.ServiceHit;
 
 public class RequestLogHeaderHandler extends BaseHandler {
 
-	public static final String PROCESS_ID = "LOG-PROCESS-ID";
-	public static final String INVOKER_ID = "LOG-INVOKER-ID";
+	public static final String EXECUTION_HEADER = "EXECUTION-ID";
 	
 	private final boolean debug = false;
 	private final boolean easytoread = true;	
 	
 	private String service_id;
-	private ArrayList<String> startOf = new ArrayList<String>();
-	
-	private int requestCount = 0;
 	
 	public void init(InitContext ctx) throws ServiceException {
 		if(ctx.getServiceId().getNamespace() != null) {
@@ -33,7 +27,6 @@ public class RequestLogHeaderHandler extends BaseHandler {
 		} else {
 			service_id = ctx.getServiceId().getAdminName();
 		}
-		TraceStatePoint.init();
 	}
 	
 	@Override
@@ -43,8 +36,7 @@ public class RequestLogHeaderHandler extends BaseHandler {
 		
 
 		Message requestMsg = ctx.getRequestMessage();
-		String processId = requestMsg.getTransportHeader(PROCESS_ID);
-		String invokerId = requestMsg.getTransportHeader(INVOKER_ID);
+		String executionId = requestMsg.getTransportHeader(EXECUTION_HEADER);
 		
 		/**
 		 * Handle an incoming request
@@ -52,25 +44,21 @@ public class RequestLogHeaderHandler extends BaseHandler {
 		if(requestMsg instanceof InboundMessage) {
 			
 			if(debug)System.out.println("Handling incoming message:");
-			if(debug)System.out.println(processId);
+			if(debug)System.out.println(executionId);
 			
 			/**
 			 * The request doesn't contain headers
 			 */
-			if(processId == null) {
+			if(executionId == null) {
 				/**
 				 * Initialize the request chain at this service
 				 */
-				processId = service_id + "_" + TraceStatePoint.getNextRequestId();
-				invokerId = "";
+				executionId = service_id + "_" + ServiceHit.getCounter();
 			}
 
-			requestMsg.setTransportHeader(PROCESS_ID, processId);
-			requestMsg.setTransportHeader(INVOKER_ID, invokerId);
+			requestMsg.setTransportHeader(EXECUTION_HEADER, executionId);
 
 			logIncomingMessage(ctx);
-			
-			requestMsg.setTransportHeader(INVOKER_ID, service_id);
 		}
 		
 		/**
@@ -85,8 +73,7 @@ public class RequestLogHeaderHandler extends BaseHandler {
 	
 	private void logIncomingMessage(MessageContext ctx) throws ServiceException {
 		Message requestMsg = ctx.getRequestMessage();
-		String process_id = requestMsg.getTransportHeader(PROCESS_ID);
-		String invoker_id = requestMsg.getTransportHeader(INVOKER_ID);
+		String execution_id = requestMsg.getTransportHeader(EXECUTION_HEADER);
 		
 		String interface_id;
 		String service_id;
@@ -99,14 +86,10 @@ public class RequestLogHeaderHandler extends BaseHandler {
 			interface_id = ctx.getOperationName();
 			service_id = this.service_id;
 		}
-		TraceStatePoint point = new TraceStatePoint(process_id, interface_id, invoker_id, service_id);
-		point.log();
 		
-	}
-
-	private int increaseRequestCount(){
-		requestCount++;
-		return requestCount;
+		boolean failure = false; /* TODO fix this */
+		ServiceHit.writeToDatabase(service_id, interface_id, execution_id, failure);
+		
 	}
 
 }

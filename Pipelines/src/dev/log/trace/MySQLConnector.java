@@ -2,13 +2,14 @@ package dev.log.trace;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
-import org.apache.commons.dbutils.DbUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.MapListHandler;
 
@@ -28,7 +29,7 @@ public class MySQLConnector {
 			Statement s = connection.createStatement();
 			s.execute(String.format("CREATE DATABASE IF NOT EXISTS %s;",database));
 			s.execute(String.format("USE %s;",database));
-			System.out.println("DB connected");
+//			System.out.println("DB connected");
 		} catch (SQLException e){
 			System.err.println("DB connection failed.");
 		} catch (IllegalAccessException e) {
@@ -71,13 +72,22 @@ public class MySQLConnector {
 		
 	}
 	
-	public List select(String query) {
+	public ArrayList<HashMap<String,String>> select(String query) {
 
-		List result = null;
-		
+		ArrayList<HashMap<String,String>> result = new ArrayList<HashMap<String,String>>();
 		try {
 			QueryRunner queryRunner = new QueryRunner();
-			result = (List)queryRunner.query(connection, query, new MapListHandler());
+			List list = (List)queryRunner.query(connection, query, new MapListHandler());
+			for(int i = 0; i < list.size(); i++){
+				Map map = (Map) list.get(i);
+				Set keyset = map.keySet();
+				HashMap<String,String> hashmap = new HashMap<String,String>();
+				for(int k = 0; k < keyset.size(); k++) {
+					Object key = keyset.toArray()[k];
+					hashmap.put((String)key, (String)map.get(key));
+				}
+				result.add(hashmap);
+			}
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
@@ -89,7 +99,7 @@ public class MySQLConnector {
 		if (connection != null) {
 			try {
 				connection.close();
-				System.out.println("DB closed");
+//				System.out.println("DB closed");
 			} catch (SQLException e){
 				System.err.println("Error while closing DB");
 			}
